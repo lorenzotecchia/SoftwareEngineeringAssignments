@@ -1,34 +1,49 @@
-\chapter{Aufgabe 2-2}
-Idee: 2D Physik simulation in Java.
+\chapter{Aufgabe 2-2} % TODO Format Chapter
+{\LARGE SOFTWARE IDEA}
+\begin{itemize}
+	\item The idea consist in a DBMS written in the C language. A DBMS is a tool for storing and retrieving stored data. It improves data managing and data collection. It must address problems like: fast data retrieval, consistency, data security, accuracy, response time, and memory requirements. The DBMS would be a relational one, providing data stored in tables ("relations"). Our DBMS would provide Libraries for string management, the ability to manage different users and different servers, and the ability to create Indexes.
+	 \item Our customers would be any company, student, or developer that would be in need for a relational, secure, fast and modern DBMS. 
+	\item The target group would be any programming inclined user. So a minimum level of knowledge about DBMSs would be expected. The DBMS might not be used/deployed because of other well known alternatives already exist, and Changing already existing Databases to use the DBMS may be difficult.
+\end{itemize}
 
-Ideen: 2D Physik simulation in Java, Zeitplan app, app die Anzeigt welche büsse wann bzw. demnächst in deiner umgebung ankommen und wo diese fahren und piepst wenn du los musst,  Program zum erstellen und traversieren von accuraten 3D karten von echten Umgebungen, Programm zur berechnung der leistung eines electro motors,  Program zum Automatischen Löschung und findung von ungewollten dateien. Programm zur hilfe von schreiben von Beweisen. Programm für das Persönliche zeit management.  Whats app email functionalitäty addon, 
 
-\section{a)}
-2D Physik simulation in Java:
-Es gibt das zwar schon http://www.jbox2d.org/ aber keine ahnung vielleicht zu kompliziert???
-Das Projekt eine Bibliotheke die es einem ermöglichen möglichst einfach und schnell 2d simulationen in echtzeit in Java zu machen. Sodass Java-spiele entwickler schnell physik in ihere spiele einbauen können. Die entwickler die es nutzen sollten nicht viel lesen müssen um es zu benutzen. Und es kann auf einer schon existierenden Java simulations bibliothek die schwer zu verwenden ist vielleicht gebaut werden.
 
-\section{???}
-
-Was ist die Anwendungsdomäne der Software?
-Die Anwendungs domaine ist die effektive Simulation von vereinfachter Physik in Java. 
-Um welche Art Software handelt es sich, wozu wird sie benötigt?
-Um eine Bibliotheke die Wiederverwendet werden kann und Physik berechnungen macht
-– Welchen Arbeitsprozess soll sie unterstützen / verbessern?
-Es sollte den Arbeitsprozess des Erstellens von 2D Speielen und cooler Animationen in Java unterstüzen.
-– Welche Funktionen soll sie bereitstellen?
-- Das definieren von 2D Formen und Objekten und die simulation von deren bewegungen als physische Objekte in einer 2D ebene.
-– Im welchem Verhältnis stehen die Kosten zum Nutzen der Software?
-• Wer sind Ihre Kunden (d.h. woher kommt der – gedachte – Auftrag und das Geld
-für die Entwicklung)?
-Die Kunden sind Spiele entwickeler und visulelle software designer die in Java arbeiten wollen
-• Wer ist die Zielgruppe Ihrer Software?
-Programmierer
-Welcher Wissenstand im Umgang mit der Software ist von den Benutzern notwendig bzw. zu erwarten?
-Einen sehr genauen und vollständigen Wissenstand
-Welche Probleme / Widerstände bei der Einführung der Software sind zu erwarten?
-Optimierungs probleme
-
-Java Easy Library Manager for Windows
-
-    
+% TODO Make slides
+Slide 1:
+	Our Project is a DBMS written in the C Language - Even tho the C language is a very old language it's still widely used nowadays, to write many DBMSs.
+Slide 2:
+	DBMS stands for Database Management system. A DBMS is a tool for storing retrieving stored data. DMBS are needed anywhere you have a data.
+Slide 3:
+	functions of DBMS -  So what would be the basics functions of a DBMS? What are the most crucial capabilities of any modern DBMS? (Security, Library management, server management, Type definition, ecc...)
+Slide 4:
+	Libraries for string management - Postgres has the REGEX library, but our software could have any ad hoc library that the customer requires. 
+Slide 5:
+	Able to manage different users - Different users with different access policy would have to be managed by the DBMS and would have the ability to group them accordingly.
+Slide 6:
+	Able to manage different servers - Different users would have many servers between them, so the DBMS should be able to switch between them.
+Slide 7:
+	Different Data Types - Tables of RDBMSs (Relational DBMSs) would have different attributes and so the need for different data types. % TODO add example 
+Slide 8:
+	Create Index - Indexes are necessary for fast data retrieval and data parsing. Like primary keys, or the so called indexes. 
+Slide 9:
+	Security - User shall have passwords to log into their servers, and to make changes to the data itself.
+Slide 10:
+	 Data retrieval time - The DBMS should provide functions to monitor the time elapsed for every query done the the servers. And provide any ad-hoc required speed/performance. 
+Slide 11:
+	Accuracy - Data accuracy means providing capabilities or functions that refer to error-free records that can be used as a reliable source of information.(e.g. not allowing negative numbers for item counting).
+Slide 12:
+	Consistency - In database systems, consistency (or correctness) refers to the requirement that any given database transaction must change affected data only in allowed ways. (e.g. constraints, cascades, triggers)
+Slide 13:
+	target groups - What is the target group of the software? 
+Slide 14: 
+	Programmer - Programmers Developing Applications/Systems etc. for companies that need to store large amounts of data efficiently and effectively 
+Slide 15:
+	Customers - What are Our potential Customers? Well Everyone with an incline for programming and Knowledge of Databases
+Slide 17:
+	Companies - Could shape out the DBMS to their needs, or request specifics functionalities that perfectly meet their needs and requirements. 
+Slide 18:
+	What level of knowledge is required or expected from the user using the software? - Having deeper knowledge of DBMSs will be useful, to provide clever solutions for the same problem, but even newbies can approach the software.
+Slide 19:
+	Problems - What problems will we face? - Lots of other DBMS are available and well established, like PostgreSQL or SQLite. (Which are also written in C).
+Slide 20: 
+	Adaption/Migration - Changing the DBMS for and existing Database is a very complex process so, companies wouldn't be totally inclined to change to our software(if the already have their own).
