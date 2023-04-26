@@ -1,0 +1,4 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}Organizational}{3}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Conflicting goals in software development}{4}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Clarification of terms}{6}{chapter.3}%

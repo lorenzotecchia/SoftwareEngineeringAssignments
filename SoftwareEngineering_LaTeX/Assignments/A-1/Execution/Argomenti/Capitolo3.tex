@@ -1,0 +1,95 @@
+\chapter{Clarification of terms}
+\begin{parlist}
+	\item Class: It's a blueprint of Object with the same name, with the inclusion of its attributes and methods.\cite{Deitel:2005aa}
+	\begin{lstlisting}[language = Java , frame = trBL , escapeinside={(*@}{@*)}]
+public class Article {
+	// some code
+	 }
+	\end{lstlisting}
+	Inheritance: The passage of same attributes and methods between the parent class and the child class 
+	\begin{lstlisting}[language = Java , frame = trBL ,escapeinside={(*@}{@*)}]
+public class Magazine extends Article{
+    	// some code
+		}
+	\end{lstlisting}
+	Attribute: The quality components of a class.
+	\begin{lstlisting}[language = Java , frame = trBL ,escapeinside={(*@}{@*)}]
+public class Article {
+    private String doi_A;
+    private String title;
+    private String accessMode;
+    private String editor;
+    private String topic;
+}	
+	\end{lstlisting}
+
+ Operation:If we are referring to the term in the context of O-O programming:  An action done to/from an object. The act of executing a method.
+ \begin{lstlisting}[language = Java , frame = trBL , escapeinside={(*@}{@*)}]
+ // some code
+ article.getName();
+ //some code	
+ \end{lstlisting}
+ More in general, an operation is the action of functioning or the fact of being active or in effect. (e.g.  the company's first hotel is now in operation)\cite{:2011aa}
+ \newpage
+ Method: A function inside the scope of a Class that defines the action that a Class can do.
+ \begin{lstlisting}[language = Java , frame = trBL , escapeinside={(*@}{@*)}]
+ 	public class Article {
+ 	public String getTitle() {
+        return title;
+    }
+ }
+ \end{lstlisting}
+
+  Copy: Two instances of an object with same name, same attributes, same methods.
+ \begin{lstlisting}[language = Java , frame = trBL , escapeinside={(*@}{@*)}]
+ class Article {
+  private String article;
+
+  public Article(Article article2) {
+    this.article = article2.article;  
+  }
+}	
+ \end{lstlisting}
+
+  Object: An instance of a Class. 
+ \begin{lstlisting}[language = Java , frame = trBL ,  escapeinside={(*@}{@*)}]
+ ArrayList<Article> articles = new ArrayList<>();	
+ \end{lstlisting}
+Library: A collection of files with different classes.
+ \begin{lstlisting}[language = Java , frame = trBL , escapeinside={(*@}{@*)}]
+ import java.util.ArrayList;	
+ \end{lstlisting}
+
+  Specification: A request made from the customer of a software project.(e.g. A GUI based Software needs to implement a GUI and the presence of a GUI in said software is a specification).\cite{8055462} \\
+  \newline
+  Implementation: If we are referring to the term in the context of O-O programming: The actual piece of code of an Interface.
+ \begin{lstlisting}[language = Java , frame = trBL , escapeinside={(*@}{@*)}]
+ public class ImplementazioneArticle implements ArticleDAO {
+ 	// some code
+ }	
+ \end{lstlisting}
+ More in general and implementation is the execution/application of a plan.\cite{:2011aa}\\
+  Verification: Is the process of checking that a type of Software meets its specifications. (e.g. The process of checking that the software has a GUI, if it's requested by its specification).\cite{8055462}
+	\item A Class is the the "blueprint" of an object. It defines which attribute can have and which action (methods) it can perform. It encompass every type of object with the same specifications. Objects are instances of classes, so they have specified attributes -even though they have the same blueprint-they can differ between one an other.
+	\begin{lstlisting}[language = Java , frame = trBL ,  escapeinside={(*@}{@*)}]
+	public class Article{ // class Article
+		private String name; // attributes
+		private String date;
+		
+		public Article(String name, String date){ // constructor of the class
+			this.name = name;
+			this.date = date;
+		}
+	}	
+	
+	// some code
+	
+	// two instances of the class Article, therefore objects
+	Article article1 = new Article("name1", "date1"); // object 1
+	Article article2 = new Article("name2", "date2"); // object 2
+	
+	\end{lstlisting}
+	\item A part from all the strictly O-O Programming terms like: Class, Attribute, Method, ecc... The only two terms that are not covered would be Operation and Implementation. Which are the act of maintaining a project in execution and the application of a plan, respectively.
+
+\end{parlist}
+

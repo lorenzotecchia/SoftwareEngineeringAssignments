@@ -1,0 +1,52 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage[english]{babel}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage[backend=biber,style=verbose-trad2, citestyle=numeric]{biblatex}
+\usepackage{listings, xcolor}
+\addbibresource{citations/assignement1.bib}
+\lstset{
+tabsize = 4, %% set tab space width
+showstringspaces = false, %% prevent space marking in strings, string is defined as the text that is generally printed directly to the console
+numbers = left, %% display line numbers on the left
+commentstyle = \color{green}, %% set comment color
+keywordstyle = \color{blue}, %% set keyword color
+stringstyle = \color{red}, %% set string color
+rulecolor = \color{black}, %% set frame color to avoid being affected by text color
+basicstyle = \small \ttfamily , %% set listing font and size
+breaklines = true, %% enable line breaking
+numberstyle = \tiny,
+}
+\newlist{parlist}{enumerate}{1}
+\setlist[parlist]{label=(\alph*),wide=0pt,topsep=0pt}
+
+
+\begin{document}
+\begin{center}
+	
+\end{center}
+    \begin{figure}[htb]
+            \centering\includegraphics[width=.5\textwidth]{/Users/lorenzotecchia/Documents/Files_LATEX/SoftwareEngineering_LaTeX/Assignments/A-1/Execution/Immagini/FUlogo.png}
+    \end{figure}
+    
+
+    \begin{center}
+        {\scshape\huge\bfseries Assignment 1}\\
+        \LARGE Lorenzo Tecchia \\ 5581906 \\ 2023.04.24
+    \end{center}
+
+
+    \newpage
+    
+    \tableofcontents
+    
+	\include{Argomenti/Capitolo1}
+    \include{Argomenti/Capitolo2}
+    \include{Argomenti/Capitolo3}
+    
+    \printbibliography
+    
+\end{document}

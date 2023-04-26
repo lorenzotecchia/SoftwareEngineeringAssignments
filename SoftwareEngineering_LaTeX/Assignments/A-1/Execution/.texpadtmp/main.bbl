@@ -1,0 +1,173 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{asana_2022}{url}{}
+      \name{author}{1}{}{%
+        {{hash=0b6bc2f036df56aedabd2fe8ab3e9b2d}{%
+           family={Asana},
+           familyi={A\bibinitperiod},
+           given={Team},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b6bc2f036df56aedabd2fe8ab3e9b2d}
+      \strng{fullhash}{0b6bc2f036df56aedabd2fe8ab3e9b2d}
+      \strng{bibnamehash}{0b6bc2f036df56aedabd2fe8ab3e9b2d}
+      \strng{authorbibnamehash}{0b6bc2f036df56aedabd2fe8ab3e9b2d}
+      \strng{authornamehash}{0b6bc2f036df56aedabd2fe8ab3e9b2d}
+      \strng{authorfullhash}{0b6bc2f036df56aedabd2fe8ab3e9b2d}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Project Managment Triangle}
+      \warn{\item url entry 'asana_2022' (/Users/lorenzotecchia/Documents/Files_LATEX/SoftwareEngineering_LaTeX/Assignments/A-1/Execution/citations/assignement1.bib): Invalid format 'https://asana.com/resources/project-management-triangle' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{:2011aa}{book}{}
+      \list{location}{1}{%
+        {Glasgow}%
+      }
+      \list{publisher}{1}{%
+        {HarperCollins}%
+      }
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{title}
+      \field{annotation}{LDR 00970cam 2200277 a 4500 001 16858642 005 20110728164207.0 008 110706s2011 stk d 000 0 eng 906 $a7$bcbc$corigres$d2$encip$f20$gy-gencatlg 925 0 $aacquire$b2 shelf copies$xpolicy default 955 $bhf04 2011-07-06 z-processor to USAN/UKI$ihf10 2011-07-28 to BCCD 010 $a 2011431382 020 $a9780007337460 (pbk.) 040 $aDLC$cDLC 042 $apcc 050 00 $aPE1628$b.C549 2011 245 00 $aCollins English dictionary \& thesaurus. 246 30 $aEnglish dictionary \& thesaurus 250 $a4th ed. 260 $aGlasgow :$bHarperCollins,$c2011. 300 $avi, 986 p. ;$c20 cm. 500 $aRev. ed. of: Collins English dictionary. 1994. 650 0 $aEnglish language$vDictionaries. 650 0 $aEnglish language$xSynonyms and antonyms$vDictionaries. 730 0 $aCollins English dictionary. 923 $apurchase$d20110706$n3205228$sAskews and Holts}
+      \field{edition}{4th ed}
+      \field{isbn}{9780007337460 (pbk.)}
+      \field{title}{Collins English dictionary \& thesaurus}
+      \field{year}{2011}
+    \endentry
+    \entry{Deitel:2005aa}{book}{}
+      \name{author}{2}{}{%
+        {{hash=920d246a9ede1eac6237b0aef6dfd969}{%
+           family={Deitel},
+           familyi={D\bibinitperiod},
+           given={Harvey\bibnamedelima M.},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b242cbd13b302d7e73826365a7e99fb2}{%
+           family={Deitel},
+           familyi={D\bibinitperiod},
+           given={Paul\bibnamedelima J},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Upper Saddle River, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Deitel}%
+      }
+      \strng{namehash}{ab3e486e01ff36e8b4f4a5c3946eadcc}
+      \strng{fullhash}{ab3e486e01ff36e8b4f4a5c3946eadcc}
+      \strng{bibnamehash}{ab3e486e01ff36e8b4f4a5c3946eadcc}
+      \strng{authorbibnamehash}{ab3e486e01ff36e8b4f4a5c3946eadcc}
+      \strng{authornamehash}{ab3e486e01ff36e8b4f4a5c3946eadcc}
+      \strng{authorfullhash}{ab3e486e01ff36e8b4f4a5c3946eadcc}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{LDR 01114cam 22002774a 4500 001 13684074 005 20041110115122.0 008 040811s2005 njua b 001 0 eng 906 $a7$bcbc$corignew$d1$eocip$f20$gy-gencatlg 925 0 $aacquire$b2 shelf copies$xpolicy default 955 $apc10 2004-08-11 to ASCD;$cjf03 2004-08-13 to Subj.$djf02 2004-08-13 to sl$ejf12 2004-08-13 to Dewey$aaa05 2004-08-16$aps03 2004-11-02 1 copy rec'd., to CIP ver.;$fjf17 2004-11-05 to SL$ejf12 2004-11-09 to BCCD$ajf00 2004-11-10 010 $a 2004057279 020 $a0131483986 040 $aDLC$cDLC$dDLC 042 $apcc 050 00 $aQA76.73.J38$bD45 2005 082 00 $a005.13/3$222 100 1 $aDeitel, Harvey M.,$d1945- 245 10 $aJava :$bhow to program /$cH.M. Deitel, P.J. Deitel. 250 $a6th ed. 260 $aUpper Saddle River, NJ :$bDeitel :$bPearson/Prentice Hall,$cc2005. 300 $alxvi, 1576, 22 p. :$bcol. ill. ;$c24 cm. 440 0 $aHow to program series 504 $aIncludes bibliographical references and index. 650 0 $aJava (Computer program language) 700 1 $aDeitel, Paul J.}
+      \field{edition}{6th ed}
+      \field{isbn}{0131483986}
+      \field{title}{Java: how to program}
+      \field{year}{2005}
+    \endentry
+    \entry{alma990004140290402883}{book}{}
+      \name{author}{1}{}{%
+        {{hash=cc64e9369c6010cc0554e17b4af9cb61}{%
+           family={Ghezzi},
+           familyi={G\bibinitperiod},
+           given={Carlo},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {Englewood Cliffs, NJ}%
+      }
+      \list{publisher}{1}{%
+        {Prentice Hall [u.a.]}%
+      }
+      \strng{namehash}{cc64e9369c6010cc0554e17b4af9cb61}
+      \strng{fullhash}{cc64e9369c6010cc0554e17b4af9cb61}
+      \strng{bibnamehash}{cc64e9369c6010cc0554e17b4af9cb61}
+      \strng{authorbibnamehash}{cc64e9369c6010cc0554e17b4af9cb61}
+      \strng{authornamehash}{cc64e9369c6010cc0554e17b4af9cb61}
+      \strng{authorfullhash}{cc64e9369c6010cc0554e17b4af9cb61}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Fundamentals of software engineering}
+      \field{isbn}{0-13-820432-2}
+      \field{title}{Fundamentals of software engineering / Carlo Ghezzi ; Mehdi Jazayeri ; Dino Mandrioli.}
+      \field{year}{1991}
+      \keyw{Software Engineering}
+    \endentry
+    \entry{8055462}{article}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Std 1012-2016 (Revision of IEEE Std 1012-2012/ Incorporates IEEE Std 1012-2016/Cor1-2017)}
+      \field{title}{IEEE Standard for System, Software, and Hardware Verification and Validation}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 260}
+      \range{pages}{260}
+      \verb{doi}
+      \verb 10.1109/IEEESTD.2017.8055462
+      \endverb
+    \endentry
+    \entry{Sommerville:1986aa}{book}{}
+      \name{author}{1}{}{%
+        {{hash=70341b3bfcce7026902f4eb1e4111b58}{%
+           family={Sommerville},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London, U.K.}%
+      }
+      \list{publisher}{1}{%
+        {P. Peregrinus, on behalf of the Institution of Electrical Engineers}%
+      }
+      \strng{namehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{bibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorbibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{LDR 00861cam 2200241 a 4500 001 2898400 005 19990308082500.2 008 870115s1986 enka b 101 0 eng 035 $9(DLC) 87104507 906 $a7$bcbc$corignew$d3$encip$f19$gy-gencatlg 010 $a 87104507 020 $a0863410774 040 $aDLC$cDLC$dDLC 050 00 $aQA76.751$b.S664 1986 082 00 $a005.3$219 245 00 $aSoftware engineering environments /$cedited by Ian Sommerville. 260 $aLondon, U.K. :$bP. Peregrinus, on behalf of the Institution of Electrical Engineers,$cc1986. 300 $aix, 258 p. :$bill. ;$c24 cm. 440 0 $aIEE computing series ;$v7 504 $aIncludes bibliographies and index. 650 0 $aSoftware engineering$xCongresses. 700 1 $aSommerville, Ian,$d1951- 991 $bc-GenColl$hQA76.751$i.S664 1986$p00034876903$tCopy 1$wBOOKS}
+      \field{isbn}{0863410774}
+      \field{title}{Software engineering environments}
+      \field{volume}{7}
+      \field{year}{1986}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
