@@ -1,4 +1,4 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-2/Execution/.texpadtmp/template.blg'
-[30] biber-darwin:340> INFO - === Thu Apr 27, 2023, 00:56:25
-[38] Biber.pm:419> INFO - Reading '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-2/Execution/.texpadtmp/template.bcf'
+[33] biber-darwin:340> INFO - === Thu Apr 27, 2023, 12:21:02
+[41] Biber.pm:419> INFO - Reading '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-2/Execution/.texpadtmp/template.bcf'
