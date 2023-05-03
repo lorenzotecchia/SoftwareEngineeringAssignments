@@ -1,17 +1,17 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is '/Users/lorenzotecchia/Documents/Files_LATEX/SoftwareEngineering_LaTeX/Assignments/A-1/Execution/.texpadtmp/main.blg'
-[31] biber-darwin:340> INFO - === Sat Apr 22, 2023, 16:51:34
-[39] Biber.pm:419> INFO - Reading '/Users/lorenzotecchia/Documents/Files_LATEX/SoftwareEngineering_LaTeX/Assignments/A-1/Execution/.texpadtmp/main.bcf'
+[0] Config.pm:310> INFO - Logfile is '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-1/Execution/.texpadtmp/main.blg'
+[30] biber-darwin:340> INFO - === Tue May  2, 2023, 11:06:49
+[38] Biber.pm:419> INFO - Reading '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-1/Execution/.texpadtmp/main.bcf'
 [74] Biber.pm:979> INFO - Found 6 citekeys in bib section 0
 [81] Biber.pm:4419> INFO - Processing section 0
-[86] Biber.pm:4610> INFO - Looking for bibtex file '/Users/lorenzotecchia/Documents/Files_LATEX/SoftwareEngineering_LaTeX/Assignments/A-1/Execution/citations/assignement1.bib' for section 0
+[86] Biber.pm:4610> INFO - Looking for bibtex file '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-1/Execution/citations/assignement1.bib' for section 0
 [87] bibtex.pm:1713> INFO - LaTeX decoding ...
-[92] bibtex.pm:1519> INFO - Found BibTeX data source '/Users/lorenzotecchia/Documents/Files_LATEX/SoftwareEngineering_LaTeX/Assignments/A-1/Execution/citations/assignement1.bib'
+[92] bibtex.pm:1519> INFO - Found BibTeX data source '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-1/Execution/citations/assignement1.bib'
 [125] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
 [125] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
 [125] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
 [125] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[127] bbl.pm:660> INFO - Writing '/Users/lorenzotecchia/Documents/Files_LATEX/SoftwareEngineering_LaTeX/Assignments/A-1/Execution/.texpadtmp/main.bbl' with encoding 'UTF-8'
-[129] bbl.pm:763> INFO - Output to /Users/lorenzotecchia/Documents/Files_LATEX/SoftwareEngineering_LaTeX/Assignments/A-1/Execution/.texpadtmp/main.bbl
-[129] Biber.pm:131> WARN - url entry 'asana_2022' (/Users/lorenzotecchia/Documents/Files_LATEX/SoftwareEngineering_LaTeX/Assignments/A-1/Execution/citations/assignement1.bib): Invalid format 'https://asana.com/resources/project-management-triangle' of date field 'urldate' - ignoring
+[127] bbl.pm:660> INFO - Writing '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-1/Execution/.texpadtmp/main.bbl' with encoding 'UTF-8'
+[129] bbl.pm:763> INFO - Output to /Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-1/Execution/.texpadtmp/main.bbl
+[129] Biber.pm:131> WARN - url entry 'asana_2022' (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-1/Execution/citations/assignement1.bib): Invalid format 'https://asana.com/resources/project-management-triangle' of date field 'urldate' - ignoring
 [129] Biber.pm:133> INFO - WARNINGS: 1

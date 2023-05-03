@@ -7,6 +7,8 @@
 \usepackage{enumitem}
 \usepackage[backend=biber,style=verbose-trad2, citestyle=numeric]{biblatex}
 \usepackage{listings, xcolor}
+\usepackage[yyyymmdd]{datetime}
+\renewcommand{\dateseparator}{.}
 \addbibresource{citations/assignement1.bib}
 \lstset{
 tabsize = 4, %% set tab space width
@@ -34,18 +36,21 @@ numberstyle = \tiny,
     
 
     \begin{center}
-        {\scshape\huge\bfseries Assignment 1}\\
-        \LARGE Lorenzo Tecchia \\ 5581906 \\ 2023.04.24
+        {\scshape\huge\bfseries Assignment 3}\\
+        \LARGE Lorenzo Tecchia \\ 5581906 \\ \today
     \end{center}
 
 
     \newpage
     
     \tableofcontents
+    \listoffigures
     
 	\include{Argomenti/Capitolo1}
     \include{Argomenti/Capitolo2}
     \include{Argomenti/Capitolo3}
+    \include{Argomenti/Capitolo4}
+    
     
     \printbibliography
     
