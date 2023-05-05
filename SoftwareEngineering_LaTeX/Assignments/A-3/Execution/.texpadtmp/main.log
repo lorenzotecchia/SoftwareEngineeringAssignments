@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.21)  5 MAY 2023 14:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.21)  5 MAY 2023 15:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -653,18 +653,23 @@ Chapter 1.
 <Immagini/test-3.png, id=119, 250.9375pt x 435.6275pt>
 File: Immagini/test-3.png Graphic file (type png)
 <use Immagini/test-3.png>
-Package pdftex.def Info: Immagini/test-3.png  used on input line 7.
+Package pdftex.def Info: Immagini/test-3.png  used on input line 6.
 (pdftex.def)             Requested size: 137.9979pt x 239.57591pt.
 [5
 
 
  <./Immagini/test-3.png (PNG copy)>] [6{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-<Immagini/test-2.png, id=130, 66.2475pt x 90.3375pt>
+<Immagini/test-2.png, id=135, 66.2475pt x 90.3375pt>
 File: Immagini/test-2.png Graphic file (type png)
 <use Immagini/test-2.png>
-Package pdftex.def Info: Immagini/test-2.png  used on input line 25.
+Package pdftex.def Info: Immagini/test-2.png  used on input line 23.
 (pdftex.def)             Requested size: 66.24733pt x 90.33727pt.
  [7 <./Immagini/test-2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
@@ -694,17 +699,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
-
- []
-
 [8]) [9]
 \openout2 = `Argomenti/Capitolo2.aux'.
 
  (./Argomenti/Capitolo2.tex
 Chapter 2.
-<Immagini/trolls.png, id=144, 1606.0pt x 796.9775pt>
+<Immagini/trolls.png, id=164, 1606.0pt x 796.9775pt>
 File: Immagini/trolls.png Graphic file (type png)
 <use Immagini/trolls.png>
 Package pdftex.def Info: Immagini/trolls.png  used on input line 4.
@@ -741,9 +741,22 @@ Chapter 4.
 
 ]) [13]
 
-LaTeX Warning: Empty bibliography on input line 57.
+Package biblatex Warning: No driver for 'url'.
+(biblatex)                Using fallback driver on input line 57.
 
-(/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-3/Execution/.texpadtmp/main.aux (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-3/Execution/.texpadtmp/Argomenti/Capitolo1.aux) (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-3/Execution/.texpadtmp/Argomenti/Capitolo2.aux) (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-3/Execution/.texpadtmp/Argomenti/Capitolo3.aux) (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-3/Execution/.texpadtmp/Argomenti/Capitolo4.aux))
+
+Package biblatex Warning: No driver for 'url'.
+(biblatex)                Using fallback driver on input line 57.
+
+
+Package biblatex Warning: No driver for 'url'.
+(biblatex)                Using fallback driver on input line 57.
+
+[14
+
+
+
+] (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-3/Execution/.texpadtmp/main.aux (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-3/Execution/.texpadtmp/Argomenti/Capitolo1.aux) (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-3/Execution/.texpadtmp/Argomenti/Capitolo2.aux) (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-3/Execution/.texpadtmp/Argomenti/Capitolo3.aux) (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-3/Execution/.texpadtmp/Argomenti/Capitolo4.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -755,21 +768,21 @@ Package logreq Info: Writing requests to 'main.run.xml'.
  )
 (\end occurred inside a group at level 1)
 
-### simple group (level 1) entered at line 30 ({)
+### simple group (level 1) entered at line 28 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 19971 strings out of 476025
- 355621 string characters out of 5790017
+ 20242 strings out of 476025
+ 361662 string characters out of 5790017
  1861388 words of memory out of 5000000
- 40099 multiletter control sequences out of 15000+600000
- 516607 words of font info for 46 fonts, out of 8000000 for 9000
+ 40358 multiletter control sequences out of 15000+600000
+ 516775 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,15n,76p,1854b,1977s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on /Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-3/Execution/.texpadtmp/main.pdf (13 pages, 189254 bytes).
+ 75i,15n,76p,1967b,1977s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on /Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-3/Execution/.texpadtmp/main.pdf (14 pages, 220082 bytes).
 PDF statistics:
- 233 PDF objects out of 1000 (max. 8388607)
- 198 compressed objects within 2 object streams
- 61 named destinations out of 1000 (max. 500000)
+ 277 PDF objects out of 1000 (max. 8388607)
+ 236 compressed objects within 3 object streams
+ 72 named destinations out of 1000 (max. 500000)
  149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
