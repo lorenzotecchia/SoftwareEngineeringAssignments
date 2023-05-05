@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.21)  3 MAY 2023 17:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.21)  5 MAY 2023 14:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -610,7 +610,7 @@ Package biblatex Info: ... file 'main.bbl' found.
 Package biblatex Info: Reference section=0 on input line 29.
 Package biblatex Info: Reference segment=0 on input line 29.
 \c@lstlisting=\count451
-<Immagini/FUlogo.png, id=60, 225.84375pt x 225.84375pt>
+<Immagini/FUlogo.png, id=68, 225.84375pt x 225.84375pt>
 File: Immagini/FUlogo.png Graphic file (type png)
 <use Immagini/FUlogo.png>
 Package pdftex.def Info: Immagini/FUlogo.png  used on input line 34.
@@ -618,7 +618,7 @@ Package pdftex.def Info: Immagini/FUlogo.png  used on input line 34.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
-(Font)              using `OT1/cmr/bx/n' instead on input line 39.
+(Font)              using `OT1/cmr/bx/n' instead on input line 38.
 
 [1
 
@@ -639,87 +639,72 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  [3
 
+] (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-3/Execution/.texpadtmp/main.lot)
+\tf@lot=\write7
+\openout7 = `main.lot'.
+
+ [4
+
 ]
 \openout2 = `Argomenti/Capitolo1.aux'.
 
  (./Argomenti/Capitolo1.tex
 Chapter 1.
-<Immagini/test-3.png, id=101, 250.9375pt x 435.6275pt>
+<Immagini/test-3.png, id=119, 250.9375pt x 435.6275pt>
 File: Immagini/test-3.png Graphic file (type png)
 <use Immagini/test-3.png>
 Package pdftex.def Info: Immagini/test-3.png  used on input line 7.
 (pdftex.def)             Requested size: 137.9979pt x 239.57591pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-[4
+[5
 
 
- <./Immagini/test-3.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 15--16
-
- []
-
-[5]
-<Immagini/test-2.png, id=110, 66.2475pt x 90.3375pt>
+ <./Immagini/test-3.png (PNG copy)>] [6{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+<Immagini/test-2.png, id=130, 66.2475pt x 90.3375pt>
 File: Immagini/test-2.png Graphic file (type png)
 <use Immagini/test-2.png>
-Package pdftex.def Info: Immagini/test-2.png  used on input line 42.
+Package pdftex.def Info: Immagini/test-2.png  used on input line 25.
 (pdftex.def)             Requested size: 66.24733pt x 90.33727pt.
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 47.
- (/usr/local/texlive/2023/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 47.
- [6{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Immagini/test-2.png (PNG copy)>]
-Overfull \hbox (10.80623pt too wide) in paragraph at lines 49--50
-\OT1/cmr/m/n/10 An Op-er-a-tion is a Be-hav-ioralFea-ture that may be owned by an In-ter-face, DataType
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+ [7 <./Immagini/test-2.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
-[7]) [8]
+[8]) [9]
 \openout2 = `Argomenti/Capitolo2.aux'.
 
  (./Argomenti/Capitolo2.tex
 Chapter 2.
-<Immagini/trolls.png, id=127, 1606.0pt x 796.9775pt>
+<Immagini/trolls.png, id=144, 1606.0pt x 796.9775pt>
 File: Immagini/trolls.png Graphic file (type png)
 <use Immagini/trolls.png>
 Package pdftex.def Info: Immagini/trolls.png  used on input line 4.
@@ -729,7 +714,7 @@ Overfull \hbox (137.9979pt too wide) in paragraph at lines 4--5
 [][] 
  []
 
-) [9
+) [10
 
 
 
@@ -739,7 +724,7 @@ Overfull \hbox (137.9979pt too wide) in paragraph at lines 4--5
 
  (./Argomenti/Capitolo3.tex
 Chapter 3.
-) [10
+) [11
 
 
 
@@ -749,38 +734,42 @@ Chapter 3.
 
  (./Argomenti/Capitolo4.tex
 Chapter 4.
-) [11
+[12
 
 
 
 
-]
+]) [13]
 
-LaTeX Warning: Empty bibliography on input line 55.
+LaTeX Warning: Empty bibliography on input line 57.
 
 (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-3/Execution/.texpadtmp/main.aux (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-3/Execution/.texpadtmp/Argomenti/Capitolo1.aux) (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-3/Execution/.texpadtmp/Argomenti/Capitolo2.aux) (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-3/Execution/.texpadtmp/Argomenti/Capitolo3.aux) (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-3/Execution/.texpadtmp/Argomenti/Capitolo4.aux))
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C6DA1252D66D96885524B2AE7571558C;1458.
+(rerunfilecheck)             Checksum: C91F6653B10CD4CBDD9416301A3BECFC;1654.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 30 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
- 19974 strings out of 476025
- 355508 string characters out of 5790017
- 1859388 words of memory out of 5000000
- 40109 multiletter control sequences out of 15000+600000
- 516599 words of font info for 46 fonts, out of 8000000 for 9000
+ 19971 strings out of 476025
+ 355621 string characters out of 5790017
+ 1861388 words of memory out of 5000000
+ 40099 multiletter control sequences out of 15000+600000
+ 516607 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,76p,1018b,1827s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on /Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-3/Execution/.texpadtmp/main.pdf (11 pages, 184122 bytes).
+ 75i,15n,76p,1854b,1977s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on /Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-3/Execution/.texpadtmp/main.pdf (13 pages, 189254 bytes).
 PDF statistics:
- 212 PDF objects out of 1000 (max. 8388607)
- 177 compressed objects within 2 object streams
- 54 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 233 PDF objects out of 1000 (max. 8388607)
+ 198 compressed objects within 2 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 149 words of extra memory for PDF output out of 10000 (max. 10000000)
 
