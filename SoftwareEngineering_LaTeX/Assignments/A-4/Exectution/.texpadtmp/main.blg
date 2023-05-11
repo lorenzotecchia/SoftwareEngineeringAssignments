@@ -1,9 +1,9 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-4/Exectution/.texpadtmp/main.blg'
-[55] biber-darwin:340> INFO - === Thu May 11, 2023, 14:55:57
-[67] Biber.pm:419> INFO - Reading '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-4/Exectution/.texpadtmp/main.bcf'
-[125] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[137] bbl.pm:660> INFO - Writing '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-4/Exectution/.texpadtmp/main.bbl' with encoding 'UTF-8'
-[137] bbl.pm:763> INFO - Output to /Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-4/Exectution/.texpadtmp/main.bbl
-[137] Biber.pm:131> WARN - The file '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-4/Exectution/.texpadtmp/main.bcf' does not contain any citations!
-[137] Biber.pm:133> INFO - WARNINGS: 1
+[56] biber-darwin:340> INFO - === Thu May 11, 2023, 17:39:19
+[68] Biber.pm:419> INFO - Reading '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-4/Exectution/.texpadtmp/main.bcf'
+[128] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[140] bbl.pm:660> INFO - Writing '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-4/Exectution/.texpadtmp/main.bbl' with encoding 'UTF-8'
+[140] bbl.pm:763> INFO - Output to /Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-4/Exectution/.texpadtmp/main.bbl
+[140] Biber.pm:131> WARN - The file '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-4/Exectution/.texpadtmp/main.bcf' does not contain any citations!
+[140] Biber.pm:133> INFO - WARNINGS: 1

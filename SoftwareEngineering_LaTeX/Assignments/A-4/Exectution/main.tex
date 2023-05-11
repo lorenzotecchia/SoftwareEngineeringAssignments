@@ -8,6 +8,8 @@
 \usepackage[backend=biber,style=verbose-trad2, citestyle=numeric]{biblatex}
 \usepackage{listings, xcolor}
 \usepackage[yyyymmdd]{datetime}
+\newenvironment{elenco}{\begin{enumerate}[label=\emph{\alph*})]}%
+                       {\end{enumerate}}
 \renewcommand{\dateseparator}{.}
 \addbibresource{citations/a-3.bib}
 \lstset{
