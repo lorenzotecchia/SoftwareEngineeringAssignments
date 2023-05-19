@@ -1,1 +1,25 @@
-\chapter{Chapter 1}
+\chapter{Task 1}
+\begin{parlist}
+	\item Use cases describe interactions between users and a system using a graphical model and a structured text. A use case indentifies the actors involved in an interaction and names the type of interaction. Additional information can be added in order to describe the interaction with the system. Those additional information can be a textual description or one or more models such as the UML sequence diagram or the state charts.
+	\item 
+		\begin{enumerate}
+			\item We identified these criteria for the product view:
+				\begin{itemize}
+					\item Hold Functional Requirements in an easy to read, easy to track text format.
+					\item Represents the goal of an interaction between an actor and the system. The goal represents a meaningful and measurable objective for the actor.
+					\item Records a set of paths (scenarios) that traverse an actor from a trigger event (start of the use case) to the goal (success scenarios).
+					\item Records a set of scenarios that traverse an actor from a trigger event toward a goal but fall short of the goal (failure scenarios).
+					\item Are multi-level: one use case can use/extent the functionality of another. \cite{cockburnComingSoon}
+				\end{itemize}
+			\item We identified these criteria for the process view:	
+				\begin{itemize}
+					\item The sentence shows the intent of the actor, not their particular movements in accomplishing that intent (semantics, not dialog).\cite{cockburnComingSoon}
+					\item All the action depicted by the use cases should have neutrality inside their representation. 
+					\item The sentence shows the process moving distinctly forward. \cite{Adolph:2003aa}
+					\item Since we're not gonna describe the interface with which the actors interact(e.g. the GUI of a software) but instead the control of action that is exchanged from one actor to another(e.g. data passes from actor B to actor A or vice versa).\cite{Sommerville:2004aa}
+					\item Mentioning the timing is optional.
+				\end{itemize}			
+		\end{enumerate}
+	\item A scenario starts with an outline of the interaction. During the elicitation process, details are added to create a complete description of that interaction. It can include a description of what the system and user expect when the scenario starts, a description of the normal flow of the events in the scenario, a description of what can go wrong and how resulting problems can be handled, information about other activities that might be going on at the same time, a description of the system state when the scenario ends.\cite{Sommerville:2004aa}\\ So from the statements from above we can clearly see the difference: use cases show "how the ball is passed", in particular how the control of the system gets passed from one actor to another, and its depiction it's as precise and not-ambiguous as it is necessary for the determined use case. As said the timing of all of these action in use cases is not necessary.
+	
+\end{parlist}
