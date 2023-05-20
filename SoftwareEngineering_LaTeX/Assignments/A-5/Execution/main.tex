@@ -7,7 +7,12 @@
 \usepackage{enumitem}
 \usepackage[backend=biber,style=verbose-trad2, citestyle=numeric]{biblatex}
 \usepackage{listings, xcolor}
+\usepackage{tikz}
+\usepackage{aeguill}
 \usepackage[yyyymmdd]{datetime}
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}
+\renewcommand{\labelenumiv}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\arabic{enumiv}}
 \renewcommand{\dateseparator}{.}
 \addbibresource{Citations/a-5.bib}
 \lstset{
