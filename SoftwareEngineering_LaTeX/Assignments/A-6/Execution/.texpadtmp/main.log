@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.21)  24 MAY 2023 17:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.4.21)  24 MAY 2023 21:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -966,12 +966,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
  (./Argomenti/Capitolo1.tex
 Chapter 1.
-<Immagini/ADC.png, id=49, 495.8525pt x 331.2375pt>
+<Immagini/ADC.png, id=51, 495.8525pt x 331.2375pt>
 File: Immagini/ADC.png Graphic file (type png)
 <use Immagini/ADC.png>
 Package pdftex.def Info: Immagini/ADC.png  used on input line 9.
 (pdftex.def)             Requested size: 207.0021pt x 138.27979pt.
-<Immagini/SDC.png, id=51, 495.8525pt x 331.2375pt>
+<Immagini/SDC.png, id=53, 495.8525pt x 331.2375pt>
 File: Immagini/SDC.png Graphic file (type png)
 <use Immagini/SDC.png>
 Package pdftex.def Info: Immagini/SDC.png  used on input line 15.
@@ -1007,7 +1007,7 @@ Overfull \hbox (86.94563pt too wide) in paragraph at lines 37--38
 
  (./Argomenti/Capitolo2.tex
 Chapter 2.
-<Immagini/ActivityDiagram.png, id=67, 3264.195pt x 1610.015pt>
+<Immagini/ActivityDiagram.png, id=69, 3264.195pt x 1610.015pt>
 File: Immagini/ActivityDiagram.png Graphic file (type png)
 <use Immagini/ActivityDiagram.png>
 Package pdftex.def Info: Immagini/ActivityDiagram.png  used on input line 5.
@@ -1022,12 +1022,17 @@ Package pdftex.def Info: Immagini/ActivityDiagram.png  used on input line 5.
 
  (./Argomenti/Capitolo3.tex
 Chapter 3.
+<Immagini/StatechartDiagram.png, id=76, 1148.29pt x 594.22pt>
+File: Immagini/StatechartDiagram.png Graphic file (type png)
+<use Immagini/StatechartDiagram.png>
+Package pdftex.def Info: Immagini/StatechartDiagram.png  used on input line 6.
+(pdftex.def)             Requested size: 482.9979pt x 249.94244pt.
 ) [7
 
 
 
 
-]
+ <./Immagini/StatechartDiagram.png>]
 
 LaTeX Warning: Empty bibliography on input line 62.
 
@@ -1042,18 +1047,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35613 strings out of 476025
- 704179 string characters out of 5790017
+ 35621 strings out of 476025
+ 704427 string characters out of 5790017
  1874388 words of memory out of 5000000
- 55534 multiletter control sequences out of 15000+600000
+ 55540 multiletter control sequences out of 15000+600000
  536586 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,9n,105p,1045b,1825s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on /Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-6/Execution/.texpadtmp/main.pdf (7 pages, 287421 bytes).
+Output written on /Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-6/Execution/.texpadtmp/main.pdf (7 pages, 317199 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
- 23 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 107 PDF objects out of 1000 (max. 8388607)
+ 81 compressed objects within 1 object stream
+ 24 named destinations out of 1000 (max. 500000)
+ 62 words of extra memory for PDF output out of 10000 (max. 10000000)
 
