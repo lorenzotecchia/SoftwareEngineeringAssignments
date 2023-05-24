@@ -1,0 +1,105 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Adolph:2003aa}{book}{}
+      \name{author}{2}{}{%
+        {{hash=640d2eaa1c6ae9ee82074825acf66425}{%
+           family={Adolph},
+           familyi={A\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2be95ae55e5be96baa39f3310954a1e7}{%
+           family={Bramble},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{e43d0b6e257e4cfb06f5bd5fe6f9f3d7}
+      \strng{fullhash}{e43d0b6e257e4cfb06f5bd5fe6f9f3d7}
+      \strng{bibnamehash}{e43d0b6e257e4cfb06f5bd5fe6f9f3d7}
+      \strng{authorbibnamehash}{e43d0b6e257e4cfb06f5bd5fe6f9f3d7}
+      \strng{authornamehash}{e43d0b6e257e4cfb06f5bd5fe6f9f3d7}
+      \strng{authorfullhash}{e43d0b6e257e4cfb06f5bd5fe6f9f3d7}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{LDR 01213cam 22002894a 4500 001 12790137 005 20021021112630.0 008 020528s2003 maua b 001 0 eng 906 $a7$bcbc$corignew$d1$eocip$f20$gy-gencatlg 925 0 $aacquire$b2 shelf copies$xpolicy default 955 $apc21 2002-05-28 to ASCD$cjf05 2002-05-29 to subj.$djf09 2002-05-29 to sl$ejf12 2002-05-30 to Dewey$aaa21 2002-05-30$aps16 2002-09-19 bk rec'd, to CIP ver.$ajf00 2002-09-25;$fjf04 2002-10-18 to S.L.$ejf12 2002-10-21 to BCCD 010 $a 2002074419 020 $a0201721848 040 $aDLC$cDLC$dDLC 042 $apcc 050 00 $aQA76.76.P37$bP38 2003 082 00 $a005.1$221 100 1 $aAdolph, Steve. 245 10 $aPatterns for effective use cases /$cSteve Adolph and Paul Bramble ; with contributions by Alistair Cockburn and Andy Pols. 260 $aBoston :$bAddison-Wesley,$cc2003. 300 $axxii, 236 p. :$bill. ;$c24 cm. 440 4 $aThe agile software development series 504 $aIncludes bibliographical references (p. 217-218) and index. 650 0 $aSoftware patterns. 650 0 $aApplication software$xDevelopment. 650 0 $aUse cases (Systems engineering) 700 1 $aBramble, Paul.}
+      \field{isbn}{0201721848}
+      \field{title}{Patterns for effective use cases}
+      \field{year}{2003}
+    \endentry
+    \entry{cockburnComingSoon}{misc}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{http://alistair.cockburn.us/Use+case+fundamentals}}
+      \field{note}{[Accessed 19-May-2023]}
+      \field{title}{{C}oming {S}oon --- alistair.cockburn.us}
+    \endentry
+    \entry{Sommerville:2004aa}{book}{}
+      \name{author}{1}{}{%
+        {{hash=70341b3bfcce7026902f4eb1e4111b58}{%
+           family={Sommerville},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Pearson/Addison-Wesley}%
+      }
+      \strng{namehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{bibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorbibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{LDR 01139cam 22003134a 4500 001 13536158 005 20060728094301.0 008 040325s2004 maua b 001 0 eng 906 $a7$bcbc$corignew$d1$eecip$f20$gy-gencatlg 925 0 $aacquire$b1 shelf copy$xpolicy default 955 $ajf03 2004-03-25$cjf03 2004-03-25 to Subj.$djf02 2004-03-26 to sl$ejf12 2004-03-26 to Dewey$aaa24 2004-03-26$aps05 2006-07-26 1 copy rec'd., to CIP ver.$fpv17 2006-07-28 Z-CipVer 010 $a 2004007038 015 $aGBA4X7948$2bnb 016 7 $a012873166$2Uk 020 $a0321210263 035 $a(OCoLC)ocm54826043 040 $aDLC$cDLC$dYDX$dBAKER$dUKM$dNLGGC$dDLC 042 $apcc 050 00 $aQA76.758$b.S657 2004 082 00 $a005.1$222 084 $a54.52$2bcl 100 1 $aSommerville, Ian. 245 10 $aSoftware engineering /$cIan Sommerville. 250 $a7th ed. 260 $aBoston :$bPearson/Addison-Wesley,$c2004. 300 $axxii, 759 p. :$bill. ;$c24 cm. 440 0 $aInternational computer science series 504 $aIncludes bibliographical references (p. [727]-742) and index. 650 0 $aSoftware engineering.}
+      \field{edition}{7th ed}
+      \field{isbn}{0321210263}
+      \field{title}{Software engineering}
+      \field{year}{2004}
+    \endentry
+    \entry{lucidchartCaseDiagramm}{misc}{}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.lucidchart.com/pages/de/uml-anwendungsfalldiagramm}}
+      \field{note}{[Accessed 20-May-2023]}
+      \field{title}{{U}{M}{L} - {U}se {C}ase {D}iagramm ({A}nwendungsfalldiagramm) --- lucidchart.com}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
