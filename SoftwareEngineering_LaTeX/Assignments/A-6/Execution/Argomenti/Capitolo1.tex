@@ -24,24 +24,43 @@
 %\label{fig:SDC}
 %\end{minipage}
 %\end{figure}	
-\newpage
+%\newpage
 %\item This is the table completed:
 %\begin{table}[hbt]
+%\centering
+%\resizebox{\textwidth}{!}{\begin{tblr}{ c | c | c |c|}
+                             %  & \textbf{Developement Phase}& & \\
+%\textbf{Aspect}& \textbf{Analysis} & \textbf{Draft}& \textbf{Implementation} \\
+%\textit{Intended Use} & to represent the structures in the application domain & to provide an overview of the structure of the system  & implementation of the classes / provide information for the use of the classes \\
+%\textit{Terminology} & that of the problem domain & that of the solution domain and the problem domain       & that of the solution domain and the problem domain \\
+%\textit{Class semantics}& classes are abstractions in the problem domain & classes are abstractions in the solution domain & classes are abstractions in the solution domain \\
+%\textit{Association semantics} & represents the hierarchy of abstractions in the problem domain & Represents the inheritance of attributes and method by classes & Represents the inheritance of attributes and method by classes \\
+%\textit{Detail level} & as high as necessary to model the domain well & low & high \\
+%\textit{Target group} & domain experts, developers-analysts & developers-designers & developers, users of the system             
+%\end{tblr}}
+
+\begin{table}
 \centering
 \begin{tblr}{
-  cell{1}{2} = {c=3}{c},
-  hlines,
-  vlines,
+  width = \linewidth,
+  colspec = {Q[110]Q[258]Q[260]Q[310]},
+  cells = {c},
+  vline{2,5} = {1}{},
+  vline{-} = {2-8}{},
+  hline{1} = {2-4}{},
+  hline{2-9} = {-}{},
 }
-                               & \textbf{Developement Phase}                  &                                                &                         \\
-\textbf{Aspect}                & \textbf{Analysis}                            & \textbf{Draft}                                 x& \textbf{Implementation} \\
-\textit{Intended Use}          & to represent the structures in the application domain                              & to provide an overview of the structure of the system                            & implementation of the classes / provide information for the use of the classes         \\
-\textit{Terminology}           & that of the problem domain         & that of the solution domain and the problem domain       & that of the solution domain and the problem domain \\
-\textit{Class semantics}       & classes are abstractions in the problem domain & classes are abstractions in the solution domain & classes are abstractions in the solution domain \\
-\textit{Association semantics} & represents the hierarchy of abstractions in the problem domain & Represents the inheritance of attributes and method by classes & Represents the inheritance of attributes and method by classes \\
-\textit{Detail level}          & as high as necessary to model the domain well & low & high \\
-\textit{Target group}          & domain experts, developers-analysts & developers-designers & developers, users of the system             
+                               &                                                                & \textbf{\textbf{Developement Phase}}                           &                                                                                \\
+\textbf{Aspect}                & \textbf{Analysis}                                              & \textbf{Draft}                                                 & \textbf{Implementation}                                                        \\
+\textit{Intended Use}          & to represent the structures in the application domain          & to provide an overview of the structure of the system          & implementation of the classes / provide information for the use of the classes \\
+\textit{Terminology}           & that of the problem domain                                     & that of the solution domain and the problem domain             & that of the solution domain and the problem domain                             \\
+\textit{Class semantics}       & classes are abstractions in the problem domain                 & classes are abstractions in the solution domain                & classes are abstractions in the solution domain                                \\
+\textit{Association semantics} & represents the hierarchy of abstractions in the problem domain & Represents the inheritance of attributes and method by classes & Represents the inheritance of attributes and method by classes                 \\
+\textit{Detail level}          & as high as necessary to model the domain well                  & low                                                            & high                                                                           \\
+\textit{Target group}          & domain experts, developers-analysts                            & developers-designers                                           & developers, users of the system                                                
 \end{tblr}
+\end{table}
+
 %\end{table}
 	
 
