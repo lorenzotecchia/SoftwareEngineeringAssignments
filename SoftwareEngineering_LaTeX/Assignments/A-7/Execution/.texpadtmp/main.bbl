@@ -16,5 +16,62 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{infoworldBenefitsChallenges}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e092e9240ac9acdab66da01d0492838b}{%
+           family={Aley},
+           familyi={A\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e092e9240ac9acdab66da01d0492838b}
+      \strng{fullhash}{e092e9240ac9acdab66da01d0492838b}
+      \strng{bibnamehash}{e092e9240ac9acdab66da01d0492838b}
+      \strng{authorbibnamehash}{e092e9240ac9acdab66da01d0492838b}
+      \strng{authornamehash}{e092e9240ac9acdab66da01d0492838b}
+      \strng{authorfullhash}{e092e9240ac9acdab66da01d0492838b}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.infoworld.com/article/3669414/the-benefits-and-challenges-of-event-driven-architecture.html}}
+      \field{note}{[Accessed 04-Jun-2023]}
+      \field{title}{{T}he benefits and challenges of event-driven architecture --- infoworld.com}
+    \endentry
+    \entry{spiritofsoftSoftwareArchitecture}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.spiritofsoft.com/software-architecture-patterns/}}
+      \field{note}{[Accessed 04-Jun-2023]}
+      \field{title}{{S}oftware {A}rchitecture {P}atterns; {S}pirit {O}f {S}oft {L}{L}{C} --- spiritofsoft.com}
+    \endentry
+    \entry{Vogel:aa}{book}{}
+      \name{author}{1}{}{%
+        {{hash=50a194976fbff34ae9d17565784d68e6}{%
+           family={Vogel},
+           familyi={V\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{50a194976fbff34ae9d17565784d68e6}
+      \strng{fullhash}{50a194976fbff34ae9d17565784d68e6}
+      \strng{bibnamehash}{50a194976fbff34ae9d17565784d68e6}
+      \strng{authorbibnamehash}{50a194976fbff34ae9d17565784d68e6}
+      \strng{authornamehash}{50a194976fbff34ae9d17565784d68e6}
+      \strng{authorfullhash}{50a194976fbff34ae9d17565784d68e6}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{LDR 01263cam 22003017i 4500 001 16861729 005 20200804115615.0 008 110708s2011 nyua b 001 0 eng 906 $a7$bcbc$corignew$d4$eepcn$f20$gy-gencatlg 925 0 $aacquire$b1 shelf copy$xpolicy default 955 $apc17 2011-07-08$axh00 2012-02-08 to USPL/STM$hcg04 2017-08-14 to CALM$urk09 2020-08-04 010 $a 2011933921 020 $a9783642197352$q(alk. paper ;$qhardback) 020 $a9783642197376$q(alk. paper) 020 $z9783642197369$q(e-ISBN) 040 $aDLC$beng$erda$cDLC$dDLC 041 1 $aeng$hger 050 00 $aMLCM 2017/43733 (T) 100 1 $aVogel, Oliver$c(Software architect),$eauthor. 240 10 $aSoftware-Architektur.$lEnglish 245 10 $aSoftware architecture :$ba comprehensive framework and guide for practitioners /$cOliver Vogel, Ingo Arnold, Arif Chughtai, Timo Kehrer ; translator, Tracey Duffy, TSD Translations. 264 1 $aNew York :$bSpringer,$c[2011] 300 $axvi, 478 pages :$billustrations ;$c27 cm 336 $atext$btxt$2rdacontent 337 $aunmediated$bn$2rdamedia 338 $avolume$bnc$2rdacarrier 500 $aTranslation of: Software-Architektur. 2009. 504 $aIncludes bibliographical references and index.}
+      \field{isbn}{9783642197352}
+      \field{title}{Software architecture: a comprehensive framework and guide for practitioners}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
