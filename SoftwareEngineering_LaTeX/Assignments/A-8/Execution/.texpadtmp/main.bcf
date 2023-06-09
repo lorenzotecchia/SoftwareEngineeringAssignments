@@ -2359,6 +2359,15 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">Citations/a-8.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1" intorder="1">deitel2009java</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">stackexchangeThereDifference</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">stackexchangeThereDifference</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">geeksforgeeksSoftwareEngineering</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">stackoverflowWhatsDifference</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">gamma1995elements</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">gamma1995elements</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">stackoverflowProxyDecorator</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">gamma1995elements</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
