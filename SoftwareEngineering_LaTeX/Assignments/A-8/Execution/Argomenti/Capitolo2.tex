@@ -31,7 +31,7 @@ class DBMS{
 	void cleartables(List<table>){...}
 	List< table> getalltables(){...}
 }
-class cleartables{
+class cleartables implements Command{
 	List<tables> old_tables;
 	@override
 	execute(){
