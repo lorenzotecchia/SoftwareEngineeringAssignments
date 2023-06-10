@@ -11,7 +11,7 @@
   \end{center}
    \item Pseudo Code Für das Entwurfsmuster: 
 \begin{lstlisting}[language=java, frame=trBL]
-   class Gui{
+class Gui{
 	Command  clear_command; 
 	void Init(){
 		clear_command = new ClearTables()
@@ -38,7 +38,6 @@ class cleartables{
 		old_tables = DBMS.getalltabels()
 		DBMS.cleartables(DBMS.getalltabels())
 	}
-}
 }
 \end{lstlisting}
 \end{parlist}
