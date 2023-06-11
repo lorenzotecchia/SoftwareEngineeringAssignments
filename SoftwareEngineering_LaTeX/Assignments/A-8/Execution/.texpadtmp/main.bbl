@@ -48,6 +48,14 @@
       \field{title}{Java for programmers}
       \field{year}{2009}
     \endentry
+    \entry{wikipediaDependencyInjection}{url}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://en.wikipedia.org/wiki/Dependency_injection}}
+      \field{note}{[Accessed 11-Jun-2023]}
+      \field{title}{{D}ependency injection - {W}ikipedia --- en.wikipedia.org}
+    \endentry
     \entry{gamma1995elements}{article}{}
       \name{author}{5}{}{%
         {{hash=abd927bf30d6566be0ac66a66e893fdd}{%

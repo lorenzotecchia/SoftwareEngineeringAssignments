@@ -5,4 +5,18 @@
 This is the \textit{Storage} class that implements the old class \textit{Filesystem}.
 \lstinputlisting[language=java, frame=trBL]{ProgrammingFIles/Storage.java}
 	\item Here the client is the class \textit{Notepadminusminus}, the Target is the methods for the class \textit{Filesystem}, the Adaptee is the class \textit{Filesystem} and finally the Adapter is the class \textit{Storage}. 
+	\item Dropbox solution:
+	\lstinputlisting[language=java, frame=trBL]{ProgrammingFiles/Dropbox.java}
+	\item Client: Notepad minus minus.\\ Target: IStorage.\\ Adapter: Storage, DropBoxStorage.\\ Adaptee: Filesystem, DbxClient.
+	\item Advantages of Dependency Injection are :
+	\begin{itemize}
+		\item It decouples classes from their dependencies so the code is more easily reused because it no longer depends on the implementation of the dependencies.
+		\item It allows several developers to build classes that depend on each other at the same time, without having to finish one before the other, because it only needs to know the interface through which the classes communicate.
+	\end{itemize}
+Disadvantages are:
+\begin{itemize}
+	\item It makes the code harder to track because it separates behaviour from construction.
+	\item It is harder to implement.
+	\item Creates clients that need configuration details that can be hard to figure out.\cite{wikipediaDependencyInjection}
+\end{itemize}
 \end{parlist}

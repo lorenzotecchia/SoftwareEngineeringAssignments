@@ -1,15 +1,16 @@
 \chapter{Task 2}
 \begin{parlist}
-   \item Man könnte den "Command" entwurfsmuster für Unser Projekt einsetzen, weil Kommandos an der Datenbank geschickt werden und diese fehlschlagen oder zu lange dauern können. Es wäre somit sinnvoll diese als Objekte zu speichern sodass man die Änderungen der Kommandos an der Datenbank rückgängig machen könnte wenn das Kommando abgebrochen wird oder fehlschlägt. Der "Command" entwurfsmuster löst das Problem Aktivitäten/Commandos wie Daten zu behandeln indem es die Aktivitäten/Commandos in Objekte verpackt mit einem gleichbleibenden Interface. Und das erlaubt es auch diese Kommandos rückgänig zu machen weil die verschiedenen Kommando Objekte auch die Daten speichern können die verändert werden um sie nach Bedarf wiederherzustellen.
-   \item Das "Command" Muster Quelle: Vorlesung
+   \item One could use the "Command" design pattern for our project, because commands are sent to the database and they can fail or take too long. It would be useful to save them as objects so that you can undo the changes of the commands to the database if the command is aborted or fails. The "Command" design pattern solves the problem of treating activities/commands like data by wrapping the activities/commands in objects with a consistent interface. And this also allows to undo these commands because the different command objects can also store the data that is modified to be restored when needed.
+
+\item The "Command" pattern Source: Lecture
   \begin{center}
    \includegraphics[width=\textwidth]{Immagini/b}
   \end{center}
-   \item Das "Command" Muster Angewendet
+   \item The "Command" Pattern Applied
      \begin{center}
-   \includegraphics[width=\textwidth]{Immagini/a}
+   \includegraphics[width=0.9\textwidth]{Immagini/a}
   \end{center}
-   \item Pseudo Code Für das Entwurfsmuster: 
+   \item Pseudo-code for the design pattern: 
 \begin{lstlisting}[language=java, frame=trBL]
 class Gui{
 	Command  clear_command; 

@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-8/Execution/.texpadtmp/main.blg'
-[33] biber-darwin:340> INFO - === Fri Jun  9, 2023, 21:35:24
-[41] Biber.pm:419> INFO - Reading '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-8/Execution/.texpadtmp/main.bcf'
-[80] Biber.pm:979> INFO - Found 6 citekeys in bib section 0
-[87] Biber.pm:4419> INFO - Processing section 0
-[92] Biber.pm:4610> INFO - Looking for bibtex file '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-8/Execution/Citations/a-8.bib' for section 0
+[34] biber-darwin:340> INFO - === Sun Jun 11, 2023, 13:58:39
+[42] Biber.pm:419> INFO - Reading '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-8/Execution/.texpadtmp/main.bcf'
+[80] Biber.pm:979> INFO - Found 7 citekeys in bib section 0
+[88] Biber.pm:4419> INFO - Processing section 0
+[93] Biber.pm:4610> INFO - Looking for bibtex file '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-8/Execution/Citations/a-8.bib' for section 0
 [93] bibtex.pm:1713> INFO - LaTeX decoding ...
-[96] bibtex.pm:1519> INFO - Found BibTeX data source '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-8/Execution/Citations/a-8.bib'
-[122] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[97] bibtex.pm:1519> INFO - Found BibTeX data source '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-8/Execution/Citations/a-8.bib'
 [122] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[122] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
 [122] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
 [122] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
 [125] bbl.pm:660> INFO - Writing '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-8/Execution/.texpadtmp/main.bbl' with encoding 'UTF-8'
-[126] bbl.pm:763> INFO - Output to /Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-8/Execution/.texpadtmp/main.bbl
+[127] bbl.pm:763> INFO - Output to /Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-8/Execution/.texpadtmp/main.bbl
