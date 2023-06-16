@@ -16,5 +16,83 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{10.1007/978-3-642-30982-3_3}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=62ac8b9f995fa937460d3e98b6b95465}{%
+           family={Cabot},
+           familyi={C\bibinitperiod},
+           given={Jordi},
+           giveni={J\bibinitperiod}}}%
+        {{hash=efee28c1804bcc4a8a6d23461cb0dcc1}{%
+           family={Gogolla},
+           familyi={G\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Bertinoro, Italy}%
+      }
+      \list{publisher}{1}{%
+        {Springer-Verlag}%
+      }
+      \strng{namehash}{ec3fc166f6f8aee75f7236b3eb942abc}
+      \strng{fullhash}{ec3fc166f6f8aee75f7236b3eb942abc}
+      \strng{bibnamehash}{ec3fc166f6f8aee75f7236b3eb942abc}
+      \strng{authorbibnamehash}{ec3fc166f6f8aee75f7236b3eb942abc}
+      \strng{authornamehash}{ec3fc166f6f8aee75f7236b3eb942abc}
+      \strng{authorfullhash}{ec3fc166f6f8aee75f7236b3eb942abc}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Object Constraint Language (OCL) started as a complement of the UML notation with the goal to overcome the limitations of UML (and in general, any graphical notation) in terms of precisely specifying detailed aspects of a system design. Since then, OCL has become a key component of any model-driven engineering (MDE) technique as the default language for expressing all kinds of (meta)model query, manipulation and specification requirements. Among many other applications, OCL is frequently used to express model transformations (as part of the source and target patterns of transformation rules), well-formedness rules (as part of the definition of new domain-specific languages), or code-generation templates (as a way to express the generation patterns and rules).This chapter pretends to provide a comprehensive view of this language, its many applications and available tool support as well as the latest research developments and open challenges around it.}
+      \field{booktitle}{Proceedings of the 12th International Conference on Formal Methods for the Design of Computer, Communication, and Software Systems: Formal Methods for Model-Driven Engineering}
+      \field{isbn}{9783642309816}
+      \field{series}{SFM'12}
+      \field{title}{Object Constraint Language (OCL): A Definitive Guide}
+      \field{year}{2012}
+      \field{pages}{58\bibrangedash 90}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1007/978-3-642-30982-3_3
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-642-30982-3_3
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-642-30982-3_3
+      \endverb
+    \endentry
+    \entry{wikipediaDesignContract}{url}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{note}{[Accessed 16-Jun-2023]}
+      \field{title}{{D}esign by contract - {W}ikipedia --- en.wikipedia.org}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Design_by_contract
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Design_by_contract
+      \endverb
+    \endentry
+    \entry{wikipediaInformationHiding}{url}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{title}
+      \field{note}{[Accessed 16-Jun-2023]}
+      \field{title}{{I}nformation hiding - {W}ikipedia --- en.wikipedia.org}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Information_hiding#References
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Information_hiding#References
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
