@@ -6,17 +6,18 @@
 context Lösung::korrigieren() pre: aufgabe != null
 context Lösung::korrigieren() pre: teilnehmer != null
 context Lösung::korrigieren() pre: not korrigiert
-context Lösung:korrigieren() post: korrigiert = true
-context Lösung:korrigieren() post: punkte <= aufgabe.punktzahl
-context Lösung:korrigieren() post: punkte >= 0
-  \begin{lstlisting}
+context Lösung::korrigieren() post: korrigiert = true
+context Lösung::korrigieren() post: punkte <= aufgabe.punktzahl
+context Lösung::korrigieren() post: punkte >= 0
+  \end{lstlisting}
   \item\begin{lstlisting}[language=ocl, frame=trBL]
 context Lösung::korrigieren() pre: aufgabe != null
 context Lösung::korrigieren() pre: teilnehmer != null
-context Lösung:korrigieren() post: korrigiert = true
-context Lösung:korrigieren() post: punkte <= aufgabe.punktzahl
-context Lösung:korrigieren() post: punkte >= 0
-  \begin{lstlisting}
+context Lösung::korrigieren() post: korrigiert = true
+context Lösung::korrigieren() post: punkte <= aufgabe.punktzahl
+context Lösung::korrigieren() post: punkte >= 0
+  \end{lstlisting}
   \item\begin{lstlisting}[language=ocl, frame=trBL]
-  \begin{lstlisting}
+context Klausur::punkteanzahl post: result = aufgaben->collect(punktzahl)->sum()
+  \end{lstlisting}
 \end{parlist}
