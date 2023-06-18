@@ -2,15 +2,15 @@
 \begin{parlist}
 	\item The score for the task must be greater than 1. The size for the solution for a student must be equal to the size of the task for an exam. If a student has passed an exam means that exists a solution for that exam with more than 0 points.
 	\item Solution:\\ 1. %% in every exam there is at least one task with exactly one point -- a post-exam cannot have a post-exam -- if a student is admitted, there i also a solution from him/her for each exam task
-	\begin{lstlisting}
+	\begin{lstlisting}[language=OCL, frame=trBL]
 		context exam inv c4: exam.task -> size() = 1
 	\end{lstlisting}
 	2.
-	\begin{lstlisting}
+	\begin{lstlisting}[language=OCL, frame=trBL]
 		context exam inv c5: not exist exam.post_exam.post_exam 
 	\end{lstlisting}
 	3.
-	\begin{lstlisting}
+	\begin{lstlisting}[language=OCL, frame=trBL]
 		c6:
 			student->forall(s| s.passed implies s.solution->exists forall(s.tasks.solutions))
 	\end{lstlisting}
