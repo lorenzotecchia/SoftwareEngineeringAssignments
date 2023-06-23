@@ -16,5 +16,127 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{geeksTopBottom}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.geeksforgeeks.org/difference-between-top-down-and-bottom-up-integration-testing/}}
+      \field{note}{[Accessed 23-Jun-2023]}
+      \field{title}{{D}ifference between {T}op {D}own and {B}ottom {U}p {I}ntegration {T}esting - {G}eeksfor{G}eeks --- geeksforgeeks.org}
+    \endentry
+    \entry{geeksforgeeks}{misc}{}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.geeksforgeeks.org/differences-between-testing-and-debugging/}}
+      \field{note}{[Accessed 23-Jun-2023]}
+      \field{title}{{D}ifferences between {T}esting and {D}ebugging - {G}eeksfor{G}eeks --- geeksforgeeks.org}
+    \endentry
+    \entry{bmcPerformanceTesting}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=212446affb59b14e03863ab5f80ee510}{%
+           family={Miller},
+           familyi={M\bibinitperiod},
+           given={Austin},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{212446affb59b14e03863ab5f80ee510}
+      \strng{fullhash}{212446affb59b14e03863ab5f80ee510}
+      \strng{bibnamehash}{212446affb59b14e03863ab5f80ee510}
+      \strng{authorbibnamehash}{212446affb59b14e03863ab5f80ee510}
+      \strng{authornamehash}{212446affb59b14e03863ab5f80ee510}
+      \strng{authorfullhash}{212446affb59b14e03863ab5f80ee510}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.bmc.com/blogs/load-testing-performance-testing-and-stress-testing-explained/}}
+      \field{note}{[Accessed 23-Jun-2023]}
+      \field{title}{{P}erformance {T}esting, {L}oad {T}esting \& {S}tress {T}esting {E}xplained --- bmc.com}
+    \endentry
+    \entry{wikipediaWhiteboxTesting}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=862ba84c1e8367008b34fd7eaee0d6fd}{%
+           family={Multiples},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{862ba84c1e8367008b34fd7eaee0d6fd}
+      \strng{fullhash}{862ba84c1e8367008b34fd7eaee0d6fd}
+      \strng{bibnamehash}{862ba84c1e8367008b34fd7eaee0d6fd}
+      \strng{authorbibnamehash}{862ba84c1e8367008b34fd7eaee0d6fd}
+      \strng{authornamehash}{862ba84c1e8367008b34fd7eaee0d6fd}
+      \strng{authorfullhash}{862ba84c1e8367008b34fd7eaee0d6fd}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://en.wikipedia.org/wiki/White-box_testing}}
+      \field{note}{[Accessed 23-Jun-2023]}
+      \field{title}{{W}hite-box testing - {W}ikipedia --- en.wikipedia.org}
+    \endentry
+    \entry{toolsqaWhatDifference}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4ec816fb9a747a605d534b7d7ff3e1c6}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Lakshay},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{4ec816fb9a747a605d534b7d7ff3e1c6}
+      \strng{fullhash}{4ec816fb9a747a605d534b7d7ff3e1c6}
+      \strng{bibnamehash}{4ec816fb9a747a605d534b7d7ff3e1c6}
+      \strng{authorbibnamehash}{4ec816fb9a747a605d534b7d7ff3e1c6}
+      \strng{authornamehash}{4ec816fb9a747a605d534b7d7ff3e1c6}
+      \strng{authorfullhash}{4ec816fb9a747a605d534b7d7ff3e1c6}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.toolsqa.com/software-testing/istqb/error-defect-failure/}}
+      \field{note}{[Accessed 23-Jun-2023]}
+      \field{title}{{W}hat is the {D}ifference between {E}rror, {D}efect, and {F}ailure? --- toolsqa.com}
+    \endentry
+    \entry{Sommerville:2004aa}{book}{}
+      \name{author}{1}{}{%
+        {{hash=70341b3bfcce7026902f4eb1e4111b58}{%
+           family={Sommerville},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Pearson/Addison-Wesley}%
+      }
+      \strng{namehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{bibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorbibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{7th ed}
+      \field{isbn}{0321210263}
+      \field{title}{Software engineering}
+      \field{year}{2004}
+    \endentry
+    \entry{techtargetWhatTest}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.techtarget.com/searchsoftwarequality/definition/test-case}}
+      \field{note}{[Accessed 23-Jun-2023]}
+      \field{title}{{W}hat is a {T}est {C}ase? --- techtarget.com}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
