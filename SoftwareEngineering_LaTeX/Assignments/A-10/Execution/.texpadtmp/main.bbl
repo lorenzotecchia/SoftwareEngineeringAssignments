@@ -136,6 +136,14 @@
       \field{note}{[Accessed 23-Jun-2023]}
       \field{title}{{W}hat is a {T}est {C}ase? --- techtarget.com}
     \endentry
+    \entry{stackexchangeDevelopersTest}{misc}{}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://softwareengineering.stackexchange.com/questions/77146/why-to-let-not-let-developers-test-their-own-work}}
+      \field{note}{[Accessed 23-Jun-2023]}
+      \field{title}{{W}hy to let / not let developers test their own work --- softwareengineering.stackexchange.com}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
