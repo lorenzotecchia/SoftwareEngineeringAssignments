@@ -39,7 +39,7 @@ public void testgleichschenklig(){
 @Test
 public void testnulleingabe(){
    DreiecksArt result = klassifiziereDreieck(0,4,5);
-   assertEquals("Prüfe ob es Schlechte Laengen erkennt", null, result);
+   assertEquals("Prüfe ob es Schlechte Laengen erkennt", DriecksArt.Normal, result);
 }
   \end{lstlisting} &  Need to check if it can recognize invalid lengths. \\ 
  \hline
@@ -47,7 +47,7 @@ public void testnulleingabe(){
 @Test
 public void testnegativeingabe(){
    DreiecksArt result = klassifiziereDreieck(3,-4,5);
-   assertEquals("Prüfe ob es Schlechte negative Laengen erkennt", null, result);
+   assertEquals("Prüfe ob es Schlechte negative Laengen erkennt", DriecksArt.Normal, result);
 }
   \end{lstlisting} &  Need to check if it can recognize invalid lengths that are negative. \\ 
  \hline
@@ -55,7 +55,7 @@ public void testnegativeingabe(){
 @Test
 public void testNaneingabe(){
    DreiecksArt result = klassifiziereDreieck(3,4,NAN);
-   assertEquals("Prüfe ob es Schlechte Laengen erkennt die keine Zahlen sind", null, result);
+   assertEquals("Prüfe ob es Schlechte Laengen erkennt die keine Zahlen sind", DriecksArt.Normal, result);
 }
   \end{lstlisting} &  Need to check if it can recognize lengths that are not Numbers. \\ 
  \hline
@@ -63,10 +63,72 @@ public void testNaneingabe(){
 @Test
 public void testNaneingabe(){
    DreiecksArt result = klassifiziereDreieck(3,null,5);
-   assertEquals("Prüfe ob es Schlechte Laengen erkennt die keine Werte haben", null, result);
+   assertEquals("Prüfe ob es Schlechte Laengen erkennt die keine Werte haben", DriecksArt.Normal, result);
 }
   \end{lstlisting} &  Need to check if it can recognize lengths that are null. \\ 
+\hline
+  \begin{lstlisting}[language=java,frame=trBL]
+
+@Test
+public void testgleichseitig(){
+   DreiecksArt result = klassifiziereDreieck(null,null,null);
+   assertEquals("Prüfe ob es Gleichseitigkeit bei Falscheingabe erkennt", DriecksArt.Normal, result);
+}
+  \end{lstlisting} text& Need to check if it will recognize equallateral triangles even if it has bad input. \\
 \end{tabular}
 \end{center}
+
+\item There are 4 branches in the code:
+\begin{list}
+\item if all if-statements are false it executes int quad1 = seite1 * seite1; , int quad2 = seite2 * seite2; ,
+int quad3 = seite3 * seite3; and return DreieckArt.Normal; 
+\item if all sides are the same length it executes return DreieckArt.Gleichseitig;
+\item if two sides are the same length it executes return DreieckArt.Gleichschenklig;
+\item if the triangle is a right triangle it executes return DreieckArt.Rechtwinklig; after executing int quad1 = seite1 * seite1; , int quad2 = seite2 * seite2; and int quad3 = seite3 * seite3;
+\end{list}
+
+\begin{center}
+\begin{tabular}{ | c | c | } 
+  \hline
+  \begin{lstlisting}[language=java,frame=trBL]
+
+@Test
+public void testgleichseitig(){
+   DreiecksArt result = klassifiziereDreieck(4,4,4);
+   assertEquals("Prüfe ob es Gleichseitigkeit erkennt", DriecksArt.Gliechseitig, result);
+}
+  \end{lstlisting} text& testing branch 2 \\ 
+\hline
+  \begin{lstlisting}[language=java,frame=trBL]
+@Test
+public void testrechtwinklig(){
+   DreiecksArt result = klassifiziereDreieck(3,4,5);
+   assertEquals("Prüfe ob es Rechtwinkligkeit erkennt", DriecksArt.Rechtwinklig, result);
+}
+  \end{lstlisting} & Testing Branch 4 \\ 
+  \hline
+  \begin{lstlisting}[language=java,frame=trBL]
+@Test
+public void testgleichschenklig(){
+   DreiecksArt result = klassifiziereDreieck(4,4,5);
+   assertEquals("Prüfe ob es Gleichschenkligkeit erkennt", DriecksArt.Gleichschenklig, result);
+}
+  \end{lstlisting} &  Testing branch 3 \\ 
+  \hline
+  \begin{lstlisting}[language=java,frame=trBL]
+@Test
+public void testgleichschenklig(){
+   DreiecksArt result = klassifiziereDreieck(2,4,5);
+   assertEquals("Prüfe ob es Gleichschenkligkeit erkennt", DriecksArt.Gleichschenklig, result);
+}
+  \end{lstlisting} &  Testing branch 1 \\
+\end{tabular}
+\end{center}
+
+\item The Programm completes all the tests successfully, execpt the one that checks what it returns if all lenghts are bad values but the same type of bad value. The Program doesn't handel bad inputs very well, it returns that a triangle is normal even when one of the inputs is null, Nan or 0 for a side of the triangel, or if all the inputs are the same even if they are bad values it will return that the triangle is equallateral or if two sides have the same bad value it will return that the triangle is an isosceles triangle which could be misleading.
+
+\item Yes, The Coverage criteria C0 and C1 were achieved by the tests because all Code was executed once and all conditions were true and false at least once. The Coverage criteria C1 and C0 don't seem very suitable for this type of problem because the code doesn't handel all possible conditions with conditional statements.
+\item The structure test also don't seem very suitable because the code didn't anticipate all types inputs it could get. The Functionstest on the otherhand was suitable because it did cover all possible inputs that the code needs to be able to handel.
+\item If null and Nan are the inputs for 2 sides e.g klassifiziereDreieck(Nan,null,5) it is likely that the program will crash when it tries to do arithmetic on these values.
 
 \end{parlist}
