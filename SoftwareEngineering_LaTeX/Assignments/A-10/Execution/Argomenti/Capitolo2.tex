@@ -17,19 +17,55 @@ public void testgleichseitig(){
    DreiecksArt result = klassifiziereDreieck(4,4,4);
    assertEquals("Prüfe ob es Gleichseitigkeit erkennt", DriecksArt.Gliechseitig, result);
 }
-  \end{lstlisting} text& \\ 
+  \end{lstlisting} text& Need to check if it can recognize equallateral triangles. \\ 
   \hline
   \begin{lstlisting}[language=java,frame=trBL]
-  @Test
+@Test
 public void testrechtwinklig(){
    DreiecksArt result = klassifiziereDreieck(3,4,5);
    assertEquals("Prüfe ob es Rechtwinkligkeit erkennt", DriecksArt.Rechtwinklig, result);
 }
-  \end{lstlisting} & \\ 
+  \end{lstlisting} & Need to check if it can recognize right triangles. \\ 
   \hline
   \begin{lstlisting}[language=java,frame=trBL]
-  \end{lstlisting} & \\ 
+@Test
+public void testgleichschenklig(){
+   DreiecksArt result = klassifiziereDreieck(4,4,5);
+   assertEquals("Prüfe ob es Gleichschenkligkeit erkennt", DriecksArt.Gleichschenklig, result);
+}
+  \end{lstlisting} &  Need to check if it can recognize isosceles triangles. \\ 
   \hline
+  \begin{lstlisting}[language=java,frame=trBL]
+@Test
+public void testnulleingabe(){
+   DreiecksArt result = klassifiziereDreieck(0,4,5);
+   assertEquals("Prüfe ob es Schlechte Laengen erkennt", null, result);
+}
+  \end{lstlisting} &  Need to check if it can recognize invalid lengths. \\ 
+ \hline
+  \begin{lstlisting}[language=java,frame=trBL]
+@Test
+public void testnegativeingabe(){
+   DreiecksArt result = klassifiziereDreieck(3,-4,5);
+   assertEquals("Prüfe ob es Schlechte negative Laengen erkennt", null, result);
+}
+  \end{lstlisting} &  Need to check if it can recognize invalid lengths that are negative. \\ 
+ \hline
+\begin{lstlisting}[language=java,frame=trBL]
+@Test
+public void testNaneingabe(){
+   DreiecksArt result = klassifiziereDreieck(3,4,NAN);
+   assertEquals("Prüfe ob es Schlechte Laengen erkennt die keine Zahlen sind", null, result);
+}
+  \end{lstlisting} &  Need to check if it can recognize lengths that are not Numbers. \\ 
+ \hline
+\begin{lstlisting}[language=java,frame=trBL]
+@Test
+public void testNaneingabe(){
+   DreiecksArt result = klassifiziereDreieck(3,null,5);
+   assertEquals("Prüfe ob es Schlechte Laengen erkennt die keine Werte haben", null, result);
+}
+  \end{lstlisting} &  Need to check if it can recognize lengths that are null. \\ 
 \end{tabular}
 \end{center}
 
