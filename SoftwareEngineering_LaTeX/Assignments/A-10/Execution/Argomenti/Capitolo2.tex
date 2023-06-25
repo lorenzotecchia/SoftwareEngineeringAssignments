@@ -8,7 +8,8 @@ context Dreieck::klassifiziereDreieck(seite1 : int, seite2 : int, seite3 : int)
 \item Test Cases in Java
 
 \begin{center}
-\begin{tabular}{ | c | c | } 
+%\begin{tabular}{ | p{10cm} | p{5cm} | }
+\begin{longtable}[c]{ | p{12cm} | p{4cm} | }
   \hline
   \begin{lstlisting}[language=java,frame=trBL]
 
@@ -17,7 +18,7 @@ public void testgleichseitig(){
    DreiecksArt result = klassifiziereDreieck(4,4,4);
    assertEquals("Pruefe ob es Gleichseitigkeit erkennt", DriecksArt.Gliechseitig, result);
 }
-  \end{lstlisting} text& Need to check if it can recognize equallateral triangles. \\ 
+  \end{lstlisting} & Need to check if it can recognize equallateral triangles. \\ 
   \hline
   \begin{lstlisting}[language=java,frame=trBL]
 @Test
@@ -74,20 +75,28 @@ public void testgleichseitig(){
    DreiecksArt result = klassifiziereDreieck(null,null,null);
    assertEquals("Pruefe ob es Gleichseitigkeit bei Falscheingabe erkennt", DriecksArt.Normal, result);
 }
-  \end{lstlisting} text& Need to check if it will recognize equallateral triangles even if it has bad input. \\
-\end{tabular}
+  \end{lstlisting} & Need to check if it will recognize equallateral triangles even if it has bad input. \\
+\hline
+%\end{tabular}
+\end{longtable}
+
 \end{center}
+%\end{adjustbox}
 
 \item There are 4 branches in the code:
-\begin{list}
+\begin{enumerate}
 \item if all if-statements are false it executes int quad1 = seite1 * seite1; , int quad2 = seite2 * seite2; , int quad3 = seite3 * seite3; and return DreieckArt.Normal; 
+
 \item if all sides are the same length it executes return DreieckArt.Gleichseitig;
+
 \item if two sides are the same length it executes return DreieckArt.Gleichschenklig;
 \item if the triangle is a right triangle it executes return DreieckArt.Rechtwinklig; after executing int quad1 = seite1 * seite1; , int quad2 = seite2 * seite2; and int quad3 = seite3 * seite3;
-\end{list}
+\end{enumerate}
 
 \begin{center}
-\begin{tabular}{ | c | c | } 
+\begin{makebox}[\linewidth]
+
+\begin{longtable}[c]{ | p{12cm} | p{4cm} | }
   \hline
   \begin{lstlisting}[language=java,frame=trBL]
 
@@ -96,7 +105,7 @@ public void testgleichseitig(){
    DreiecksArt result = klassifiziereDreieck(4,4,4);
    assertEquals("Pruefe ob es Gleichseitigkeit erkennt", DriecksArt.Gliechseitig, result);
 }
-  \end{lstlisting} text& testing branch 2 \\ 
+  \end{lstlisting} & testing branch 2 \\ 
 \hline
   \begin{lstlisting}[language=java,frame=trBL]
 @Test
@@ -121,7 +130,9 @@ public void testgleichschenklig(){
    assertEquals("Pruefe ob es Gleichschenkligkeit erkennt", DriecksArt.Gleichschenklig, result);
 }
   \end{lstlisting} &  Testing branch 1 \\
-\end{tabular}
+  \hline
+\end{longtable}
+\end{makebox}
 \end{center}
 
 \item The Programm all of the tests successfully, execpt the one that checks what it returns if all lenghts are bad values but the same type of bad value and the one that checks if it recognize negative lengths correctly. The Program doesn't handel bad inputs very well, it returns that a triangle is normal even when one of the inputs is null, Nan or 0 for a side of the triangel, or if all the inputs are the same even if they are bad values it will return that the triangle is equallateral or if two sides have the same bad value it will return that the triangle is an isosceles triangle which could be misleading and even if the sides of the triangel are negative it will still recognize a right triangle.
