@@ -1,1 +1,36 @@
 \chapter{Task 2}
+\begin{parlist}
+ \item OCL of klassifiziereDreieck
+ \begin{lstlisting}[language=OCL,frame=trBL]
+context Dreieck::klassifiziereDreieck(seite1 : int, seite2 : int, seite3 : int) 
+  pre: seite1 > 0 and seite2 > 0 and seite3 > 0 and not seite1.oclIsUndefined() and not seite2.oclIsUndefined() and not seite3.oclIsUndefined()
+\end{lstlisting}
+\item Test Cases in Java
+
+\begin{center}
+\begin{tabular}{ | c | c | } 
+  \hline
+  \begin{lstlisting}[language=java,frame=trBL]
+
+@Test
+public void testgleichseitig(){
+   DreiecksArt result = klassifiziereDreieck(4,4,4);
+   assertEquals("Prüfe ob es Gleichseitigkeit erkennt", DriecksArt.Gliechseitig, result);
+}
+  \end{lstlisting} text& \\ 
+  \hline
+  \begin{lstlisting}[language=java,frame=trBL]
+  @Test
+public void testrechtwinklig(){
+   DreiecksArt result = klassifiziereDreieck(3,4,5);
+   assertEquals("Prüfe ob es Rechtwinkligkeit erkennt", DriecksArt.Rechtwinklig, result);
+}
+  \end{lstlisting} & \\ 
+  \hline
+  \begin{lstlisting}[language=java,frame=trBL]
+  \end{lstlisting} & \\ 
+  \hline
+\end{tabular}
+\end{center}
+
+\end{parlist}
