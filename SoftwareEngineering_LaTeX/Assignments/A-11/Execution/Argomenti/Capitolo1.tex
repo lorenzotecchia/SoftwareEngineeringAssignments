@@ -1,1 +1,20 @@
 \chapter{Task 1}
+\begin{parlist}
+	\item I, personally don't do: 1,5,9, 11, 12, 14, 15, 19, 22 ,24 , 25.
+	\item 
+	\item Number 30, if one's system has a large capability of RAM and not having flushed the "data" loaded into the RAM doesn't not affect the performance of the machine, then it could go unnoticed but still would have occupied a big chunk of a system memory and the running of a test just one time wouldn't notice the abundance of memory allocation. Also number 29 since not closing a DB connection for example would not affect the execution of the machine at first but a second query to said database would result into an error if before the start of the query one would try to open a new connection to said database or any other external source.
+	\item These are the three identified:
+		\begin{enumerate}
+			\item The "Need to know" principle (abstraction, encapsulations of information) wrongful access to sensitive data can incur into faults, so there is a need for instruments of encapsulation like strong typing and in general creation of classes. \cite{Sommerville2004}(Paragraph 20.2.1)
+			\item The lack of error prone language constructs. Some language have deprecated or choose to not implement at all some of these error prone structures like Java doesn't implement pointers and uses the garbage collector in response to dynamic memory allocation, but still has some prominent errore prone features like the handling of floating point numbers. \cite{Sommerville2004}
+			\item Is the system using the fixed-point numbers instead of floating point ones? As a response to the last mentioned problem, fixed-point numbers are represented to a given number of a decimal place. \cite{Sommerville2004}
+		\end{enumerate}
+ \newpage
+	\item Citing (Lutz1993)\cite{Lutz1993} and (Fagan1976)\cite{Fagan2002}:\begin{quotation}
+			"difficulties with requirements are the key root cause of the safety-related software errors, which have persisted until integration and system testing".\end{quotation}
+		In embedded systems, is reported that more than 90\% of defects can be discovered in program inspections. So when requirements are critical and to be accounted general reviews are much more effective and useful than automated system. \\
+		
+Software quality is not just about whether the software functionality has been correctly implemented, but also depends on non-functional system attributes that automated testing cannot verify.\\
+
+Automated testing solely rely on how the test inside the code is implemented and can exclusively be carried out with the code being executed, whereas static review are done by a team often very experienced of developers which can spot major defects inside the code and not depend on any pre-define test. If there were only automated and dynamic tests the quality of the software would be just as good as the quality of the tests.
+\end{parlist}

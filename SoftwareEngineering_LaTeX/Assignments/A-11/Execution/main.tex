@@ -3,23 +3,21 @@
 \usepackage{booktabs}
 \usepackage{graphicx}
 \usepackage[english]{babel}
+\usepackage{enumitem}
+\usepackage{tabularray}
+\usepackage{subcaption}
+\usepackage[backend=biber, style=numeric, citestyle=numeric]{biblatex}
 \usepackage{hyperref}
 \usepackage{cleveref}
-\usepackage{enumitem}
-%\usepackage{tabularray}
-\usepackage{subcaption}
-\usepackage[backend=biber, style=numeric]{biblatex}
 \usepackage{listings, xcolor}
 \usepackage{tikz}
 \usepackage{aeguill}
 \usepackage[yyyymmdd]{datetime}
-\usepackage{longtable}
-\bibliography{Citations/a-11.bib}
-
 \renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}}
 \renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}}
 \renewcommand{\labelenumiv}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.\arabic{enumiv}}
 \renewcommand{\dateseparator}{.}
+\addbibresource{Citations/a-11.bib}
 \lstset{
 tabsize = 4, %% set tab space width
 showstringspaces = false, %% prevent space marking in strings, string is defined as the text that is generally printed directly to the console
@@ -55,7 +53,6 @@ numberstyle = \tiny,
     \newpage
     
     \tableofcontents
-	\lstlistoflistings
     
     \include{Argomenti/Capitolo1}
     \include{Argomenti/Capitolo2}

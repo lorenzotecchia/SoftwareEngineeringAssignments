@@ -1,9 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-11/Execution/.texpadtmp/main.blg'
-[32] biber-darwin:340> INFO - === Tue Jun 27, 2023, 12:39:18
-[40] Biber.pm:419> INFO - Reading '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-11/Execution/.texpadtmp/main.bcf'
-[76] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[83] bbl.pm:660> INFO - Writing '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-11/Execution/.texpadtmp/main.bbl' with encoding 'UTF-8'
-[83] bbl.pm:763> INFO - Output to /Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-11/Execution/.texpadtmp/main.bbl
-[83] Biber.pm:131> WARN - The file '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-11/Execution/.texpadtmp/main.bcf' does not contain any citations!
-[84] Biber.pm:133> INFO - WARNINGS: 1
+[30] biber-darwin:340> INFO - === Tue Jun 27, 2023, 23:59:14
+[36] Biber.pm:419> INFO - Reading '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-11/Execution/.texpadtmp/main.bcf'
+[72] Biber.pm:979> INFO - Found 3 citekeys in bib section 0
+[79] Biber.pm:4419> INFO - Processing section 0
+[84] Biber.pm:4610> INFO - Looking for bibtex file '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-11/Execution/Citations/a-11.bib' for section 0
+[84] bibtex.pm:1713> INFO - LaTeX decoding ...
+[89] bibtex.pm:1519> INFO - Found BibTeX data source '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-11/Execution/Citations/a-11.bib'
+[117] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[117] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[117] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[117] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[120] bbl.pm:660> INFO - Writing '/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-11/Execution/.texpadtmp/main.bbl' with encoding 'UTF-8'
+[121] bbl.pm:763> INFO - Output to /Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-11/Execution/.texpadtmp/main.bbl

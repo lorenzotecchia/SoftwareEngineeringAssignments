@@ -16,5 +16,122 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Fagan2002}{inbook}{}
+      \name{author}{1}{}{%
+        {{hash=3511cbc6b27d98992bc58eb6407bc78d}{%
+           family={Fagan},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=74476573aa159749eafc4a3c16c957b4}{%
+           family={Broy},
+           familyi={B\bibinitperiod},
+           given={Manfred},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ce9d59c6bd80c48d792b54b7f5c6c9f5}{%
+           family={Denert},
+           familyi={D\bibinitperiod},
+           given={Ernst},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Heidelberg}%
+      }
+      \list{publisher}{1}{%
+        {Springer Berlin Heidelberg}%
+      }
+      \strng{namehash}{3511cbc6b27d98992bc58eb6407bc78d}
+      \strng{fullhash}{3511cbc6b27d98992bc58eb6407bc78d}
+      \strng{bibnamehash}{3511cbc6b27d98992bc58eb6407bc78d}
+      \strng{authorbibnamehash}{3511cbc6b27d98992bc58eb6407bc78d}
+      \strng{authornamehash}{3511cbc6b27d98992bc58eb6407bc78d}
+      \strng{authorfullhash}{3511cbc6b27d98992bc58eb6407bc78d}
+      \strng{editorbibnamehash}{dc0edd27795f46c6594bdf99cb159cbc}
+      \strng{editornamehash}{dc0edd27795f46c6594bdf99cb159cbc}
+      \strng{editorfullhash}{dc0edd27795f46c6594bdf99cb159cbc}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Substantial net improvements in programming quality and productivity have been obtained through the use of formal inspections of design and of code. Improvements are made possible by a systematic and efficient design and code verification process, with well-defined roles for inspection participants. The manner in which inspection data is categorized and made suitable for process analysis is an important factor in attaining the improvements. It is shown that by using inspection results, a mechanism for initial error reduction followed by ever-improving error rates can be achieved.}
+      \field{booktitle}{Software Pioneers: Contributions to Software Engineering}
+      \field{isbn}{978-3-642-59412-0}
+      \field{title}{Design and Code Inspections to Reduce Errors in Program Development}
+      \field{year}{2002}
+      \field{pages}{575\bibrangedash 607}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1007/978-3-642-59412-0_35
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/978-3-642-59412-0_35
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/978-3-642-59412-0_35
+      \endverb
+    \endentry
+    \entry{Lutz1993}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=a12a67c22ea716aaa1314f9ae029903f}{%
+           family={Lutz},
+           familyi={L\bibinitperiod},
+           given={R.R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a12a67c22ea716aaa1314f9ae029903f}
+      \strng{fullhash}{a12a67c22ea716aaa1314f9ae029903f}
+      \strng{bibnamehash}{a12a67c22ea716aaa1314f9ae029903f}
+      \strng{authorbibnamehash}{a12a67c22ea716aaa1314f9ae029903f}
+      \strng{authornamehash}{a12a67c22ea716aaa1314f9ae029903f}
+      \strng{authorfullhash}{a12a67c22ea716aaa1314f9ae029903f}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{[1993] Proceedings of the IEEE International Symposium on Requirements Engineering}
+      \field{title}{Analyzing software requirements errors in safety-critical, embedded systems}
+      \field{year}{1993}
+      \field{pages}{126\bibrangedash 133}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/ISRE.1993.324825
+      \endverb
+    \endentry
+    \entry{Sommerville2004}{book}{}
+      \name{author}{1}{}{%
+        {{hash=70341b3bfcce7026902f4eb1e4111b58}{%
+           family={Sommerville},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Pearson/Addison-Wesley}%
+      }
+      \strng{namehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{bibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorbibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{7th ed}
+      \field{isbn}{0321210263}
+      \field{title}{Software engineering}
+      \field{year}{2004}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
