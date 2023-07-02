@@ -1,14 +1,14 @@
 \chapter{Task 3}
 \begin{parlist}
-\item Assume that only korrekt values are given e.g values in the correct range. A.points are the points from the first test, B.points are the points from the second test.
-Aquivalenz Classes:
-\begin{list}
+\item Assume that only correct values are given, e.g values in the correct range for the tests. A.points are the points from the first test, B.points are the points from the second test.
+equivalence classes:
+\begin{itemize}
 \item Class A :  A.points + B.points >= 90 
 \item Class B :  A.points + B.points > 75  and  A.points + B.points < 90 and A.points > 20 and B.points > 20
 \item Class C:  A.points + B.points > 60  and  A.points + B.points <= 75 and A.points > 20 and B.points > 20
 \item Class D:  A.points >= 20 and B.points >= 20  and  A.points + B.points <= 60 and A.points > 20 and B.points > 20
 \item Class F:  A.points < 20 or B.points < 20
-\end{list}
+\end{itemize}
 \item 
 Class A:
 \begin{lstlisting}[language=java,frame=trBL]
@@ -46,13 +46,14 @@ public void testF(){
 }
 \end{lstlisting}
 
-\item
+\item Testcases for each of the boundary edges between the different equivalence classes.
 \begin{lstlisting}[language=java,frame=trBL]
 	@Test
 	public void testFtoD1() {
 		assertEquals("Pruefe Grenzuebergang F zu D Nr. 1", Grader.Grade.F, Grader.grade(30, 19));
 	}
 
+	@Test
 	public void testDtoF1() {
 		assertEquals("Pruefe Grenzuebergang D zu F Nr. 1", Grader.Grade.D, Grader.grade(30, 21));
 	}
@@ -117,8 +118,10 @@ public void testF(){
 	public void testAtoB() {
 		assertEquals("Pruefe Grenzuebergang A zu B", Grader.Grade.A, Grader.grade(35, 55));
 	}
+
 \end{lstlisting}
 
+\center\includegraphics{Immagini/diagram.png}
 
 \end{parlist}
 
