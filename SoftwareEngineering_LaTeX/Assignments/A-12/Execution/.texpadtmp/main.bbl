@@ -16,5 +16,94 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{ibmDeveloper}{url}{}
+      \name{author}{1}{}{%
+        {{hash=9186c15aa637b6abd5e238672edfcd6d}{%
+           family={Aiden\bibnamedelima Gallagher},
+           familyi={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Peter\bibnamedelima Reeves},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           suffix={Jack\bibnamedelima Dunleavy},
+           suffixi={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{9186c15aa637b6abd5e238672edfcd6d}
+      \strng{fullhash}{9186c15aa637b6abd5e238672edfcd6d}
+      \strng{bibnamehash}{9186c15aa637b6abd5e238672edfcd6d}
+      \strng{authorbibnamehash}{9186c15aa637b6abd5e238672edfcd6d}
+      \strng{authornamehash}{9186c15aa637b6abd5e238672edfcd6d}
+      \strng{authorfullhash}{9186c15aa637b6abd5e238672edfcd6d}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Waterfall Model: Advantages, disadvantages, and when you should use it}
+      \verb{urlraw}
+      \verb https://developer.ibm.com/articles/waterfall-model-advantages-disadvantages/
+      \endverb
+      \verb{url}
+      \verb https://developer.ibm.com/articles/waterfall-model-advantages-disadvantages/
+      \endverb
+    \endentry
+    \entry{Sommerville2004aa}{book}{}
+      \name{author}{1}{}{%
+        {{hash=70341b3bfcce7026902f4eb1e4111b58}{%
+           family={Sommerville},
+           familyi={S\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Pearson/Addison-Wesley}%
+      }
+      \strng{namehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{bibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorbibnamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{7th ed}
+      \field{isbn}{0321210263}
+      \field{title}{Software engineering}
+      \field{year}{2004}
+    \endentry
+    \entry{unstopEvolutionaryModel}{url}{}
+      \name{author}{1}{}{%
+        {{hash=455c5250e1377d1656250062ca75f784}{%
+           family={Thakur},
+           familyi={T\bibinitperiod},
+           given={Shreeya},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{455c5250e1377d1656250062ca75f784}
+      \strng{fullhash}{455c5250e1377d1656250062ca75f784}
+      \strng{bibnamehash}{455c5250e1377d1656250062ca75f784}
+      \strng{authorbibnamehash}{455c5250e1377d1656250062ca75f784}
+      \strng{authornamehash}{455c5250e1377d1656250062ca75f784}
+      \strng{authorfullhash}{455c5250e1377d1656250062ca75f784}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{E}volutionary {M}odel {I}n {S}oftware {E}ngineering ({W}ith {E}xamples) // {U}nstop (formerly {D}are2{C}ompete) --- unstop.com}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://unstop.com/blog/evolutionary-model-in-software-engineering
+      \endverb
+      \verb{url}
+      \verb https://unstop.com/blog/evolutionary-model-in-software-engineering
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

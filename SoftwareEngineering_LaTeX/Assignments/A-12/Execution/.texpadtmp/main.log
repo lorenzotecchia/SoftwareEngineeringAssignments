@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.4)  4 JUL 2023 11:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.4)  4 JUL 2023 18:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -956,26 +956,55 @@ Chapter 1.
 
  (./Argomenti/Capitolo2.tex
 Chapter 2.
-) [4
+LaTeX Font Info:    Trying to load font information for TS1+aer on input line 7.
+LaTeX Font Info:    No file TS1aer.fd. on input line 7.
+
+LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textbullet' on input line 7.
+
+[4
 
 
 
 
-]
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]) [5]
 \openout2 = `Argomenti/Capitolo3.aux'.
 
  (./Argomenti/Capitolo3.tex
 Chapter 3.
-) [5
+) [6
 
 
 
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 61.
+Package biblatex Warning: No driver for 'url'.
+(biblatex)                Using fallback driver on input line 61.
 
-(/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-12/Execution/.texpadtmp/main.aux (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-12/Execution/.texpadtmp/Argomenti/Capitolo1.aux) (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-12/Execution/.texpadtmp/Argomenti/Capitolo2.aux) (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-12/Execution/.texpadtmp/Argomenti/Capitolo3.aux))
+LaTeX Font Info:    Trying to load font information for T1+aett on input line 61.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/ae/t1aett.fd
+File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 61.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 61.
+
+Overfull \hbox (3.12627pt too wide) in paragraph at lines 62--62
+\T1/aer/m/it/10 tages, dis-ad-van-tages, and when you should use it\T1/aer/m/n/10 . \T1/aer/m/sc/10 url\T1/aer/m/n/10 : []$\T1/aett/m/n/10 https : / / developer .
+ []
+
+
+Package biblatex Warning: No driver for 'url'.
+(biblatex)                Using fallback driver on input line 61.
+
+[7
+
+
+
+] (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-12/Execution/.texpadtmp/main.aux (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-12/Execution/.texpadtmp/Argomenti/Capitolo1.aux) (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-12/Execution/.texpadtmp/Argomenti/Capitolo2.aux) (/Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-12/Execution/.texpadtmp/Argomenti/Capitolo3.aux))
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-06-30>
@@ -991,18 +1020,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35092 strings out of 475237
- 687332 string characters out of 5764553
- 1920244 words of memory out of 5000000
- 55843 multiletter control sequences out of 15000+600000
- 578465 words of font info for 64 fonts, out of 8000000 for 9000
+ 35385 strings out of 475237
+ 693136 string characters out of 5764553
+ 1925244 words of memory out of 5000000
+ 56111 multiletter control sequences out of 15000+600000
+ 582074 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,6n,87p,1045b,1822s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on /Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-12/Execution/.texpadtmp/main.pdf (5 pages, 44047 bytes).
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on /Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-12/Execution/.texpadtmp/main.pdf (7 pages, 109981 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
+ 119 PDF objects out of 1000 (max. 8388607)
+ 95 compressed objects within 1 object stream
+ 25 named destinations out of 1000 (max. 500000)
  42 words of extra memory for PDF output out of 10000 (max. 10000000)
 
