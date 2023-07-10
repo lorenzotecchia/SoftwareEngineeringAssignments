@@ -116,6 +116,32 @@
       \verb https://unstop.com/blog/evolutionary-model-in-software-engineering
       \endverb
     \endentry
+    \entry{enwiki:1150668036}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 10-July-2023]}
+      \field{title}{Extreme programming --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/w/index.php?title=Extreme_programming&oldid=1150668036
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/w/index.php?title=Extreme_programming&oldid=1150668036
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.4)  5 JUL 2023 00:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.7.4)  10 JUL 2023 09:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -996,7 +996,7 @@ Overfull \hbox (23.9853pt too wide) in paragraph at lines 5--30
 
 
 ]
-<Immagini/ND.png, id=74, 1044.90375pt x 372.39125pt>
+<Immagini/ND.png, id=76, 1044.90375pt x 372.39125pt>
 File: Immagini/ND.png Graphic file (type png)
 <use Immagini/ND.png>
 Package pdftex.def Info: Immagini/ND.png  used on input line 55.
@@ -1006,12 +1006,12 @@ Overfull \hbox (137.9979pt too wide) in paragraph at lines 55--56
  [][] 
  []
 
-<Immagini/ganntChart.png, id=77, 368.37625pt x 233.87375pt>
+<Immagini/ganntChart.png, id=79, 368.37625pt x 233.87375pt>
 File: Immagini/ganntChart.png Graphic file (type png)
 <use Immagini/ganntChart.png>
 Package pdftex.def Info: Immagini/ganntChart.png  used on input line 69.
 (pdftex.def)             Requested size: 293.2521pt x 186.17853pt.
-) [7 <./Immagini/ND.png> <./Immagini/ganntChart.png (PNG copy)>]
+) [7 <./Immagini/ND.png>] [8 <./Immagini/ganntChart.png (PNG copy)>]
 
 Package biblatex Warning: No driver for 'url'.
 (biblatex)                Using fallback driver on input line 61.
@@ -1032,7 +1032,12 @@ Package biblatex Warning: No driver for 'url'.
 Package biblatex Warning: No driver for 'url'.
 (biblatex)                Using fallback driver on input line 61.
 
-[8
+
+Overfull \hbox (19.6666pt too wide) in paragraph at lines 62--62
+\T1/aer/m/it/10 cy-clo-pe-dia\T1/aer/m/n/10 . [On-line; ac-cessed 10-July-2023]. 2023. \T1/aer/m/sc/10 url\T1/aer/m/n/10 : []$\T1/aett/m/n/10 https : / / en . wikipedia .
+ []
+
+[9
 
 
 
@@ -1052,18 +1057,18 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 35529 strings out of 475237
- 697314 string characters out of 5764553
- 1934244 words of memory out of 5000000
- 56246 multiletter control sequences out of 15000+600000
+ 35535 strings out of 475237
+ 697507 string characters out of 5764553
+ 1935244 words of memory out of 5000000
+ 56250 multiletter control sequences out of 15000+600000
  583121 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,8n,105p,1045b,1822s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmb10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on /Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-12/Execution/.texpadtmp/main.pdf (8 pages, 158517 bytes).
+Output written on /Users/lorenzotecchia/Documents/ESAMI/SoftwareEngineering/SoftwareEngineeringAssignments/SoftwareEngineering_LaTeX/Assignments/A-12/Execution/.texpadtmp/main.pdf (9 pages, 163013 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 115 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
+ 154 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
  52 words of extra memory for PDF output out of 10000 (max. 10000000)
 
