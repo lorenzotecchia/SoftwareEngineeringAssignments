@@ -1,2 +1,2 @@
-*.texpadtmp
-*.DS_Store
+.texpadtmp
+.DS_Store
